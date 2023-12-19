@@ -695,7 +695,7 @@
     });
 
     /****** Scroll to top *****/
-    $( document ).on( 'click', '.scroll-top-arrow', function () {
+    $( document ).on( 'click', '.container-footer-icon', function () {
         $( 'html, body' ).animate({ scrollTop: 0 }, 800 );
         return false;
     });
@@ -1516,12 +1516,12 @@
 
         /****** Scroll to top ******/
         if ( scrollPos > 150 ) {
-            $( '.scroll-top-arrow' ).fadeIn( '300' );
+            $( '.container-footer-icon' ).fadeIn( '300' );
             if( ! $( '.show-theme-demos' ).length && getWindowWidth() > 1199 ) {
                 $( '.theme-demos' ).fadeIn( '300' );
             }
         } else {
-            $( '.scroll-top-arrow' ).fadeOut( '300' );
+            $( '.container-footer-icon' ).fadeOut( '300' );
         }
     }
 
