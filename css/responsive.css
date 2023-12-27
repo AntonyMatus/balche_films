@@ -6375,6 +6375,10 @@
     
     /* horizontal portfolio slider */
     .horizontal-portfolio-slider-main .horizontal-portfolio-slider .swiper-slide { height: auto;}
+
+    header .navbar .navbar-brand .mobile-logo, header .sidebar-nav-menu .navbar-brand .mobile-logo{
+        margin-left: 0px;
+    }
 }
 
 @media screen and (max-width: 575px) {
@@ -7988,7 +7992,249 @@
 
     /* countdown style 02 */
     .countdown.countdown-style-02 .countdown-box { margin-bottom: 15px; padding: 0 25px; }
+
+    .hero_wrapper .banner_image {
+        position: relative;
+        max-width: 100%;
+        margin-top: 12rem;
+    }
+
+    .title-about {
+        font-size: 32px;
+    }
+
+    .d-flex-icons{
+        display: grid;
+        height: auto;
+        gap: 1rem;
+        margin-top: 1rem;
+        padding: 1rem 0;
+        justify-content: space-evenly;
+    }
+
+    .d-flex-email {
+        justify-content: start;
+    }
+
+    .elements-social .large-icon li {
+        margin-bottom: 0px;
+    }
+
+    .title-video, .narrative_title {
+        font-size: 36px;
+    }
+
+    .client_title{
+        font-size: 25px;
+    }
+
+    .container-projects {
+        justify-content: center;
+    }
+
+    .md-padding-30px-right{
+        padding: 0;
+    }
+
+    .project-title {
+        font-size: 36px;
+    }
+
+    .project-title, .project-des{
+        text-align: left;
+    }
+
+    .flex-column-reverse-responsive{
+        flex-direction: column-reverse;
+    }
+
+    .feature-box {
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .container-form {
+        display: grid;
+        gap: 3rem;
+    }
+
+    .hero_container .hero_header{
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    span.marking {
+        font-size: 35px;
+    }
+
+    .xs-h-450px {
+        height: 100px !important;
+    }
+
+    .about-title, .process-title {
+        font-size: 32px;
+    }
+
+    .about-desc {
+        text-align: justify;
+    }
+
+    .gap-2rem-responsive {
+        gap: 2rem;
+    }
+
+    .p-lr-0 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .process-item-title, .process-item-desc {
+        text-align: left;
+    }
+
+    .process-item-title {
+        font-size: 32px;
+    }
+
+    .question_title {
+        font-size: 32px;
+        text-align: center;
+        margin-top: 3rem;
+    }
+
+    .cuadro-negro{
+        left: 34px;
+        bottom: -60px;
+    }
+
+    .accordion-style-03 .panel .panel-heading {
+        padding: 5px 0px 5px 24px;
+    }
 }
+
+@media screen and  (max-width: 400px) {
+    .container-back{
+        width: 85%;
+        height: 318px;
+    }
+
+    .container-img{
+        background-image: url(../images/intro/intro_mobile.png);
+        width: 310px;
+        height: 318px;
+        left: 30px;
+        
+    }
+    .amenities-card-title{
+        font-size: 12px;
+    }
+
+    .title-banner, .title-banner2{
+        line-height: 30px;
+        letter-spacing: 6.36px;
+    }
+
+    .text-politica, .text-button-client{
+        font-size: 12px;
+    }
+
+    .tab-style-07 .nav-tabs > li.nav-item > a.nav-link{
+        font-size: 20px;
+    }
+
+    .sub-title-modelos{
+        font-size: 16px;
+    }
+
+    .title-modelos{
+        font-size: 24px;
+        line-height: 38px;
+    }
+
+    .amenities-title, .title{
+        font-size: 24px;
+    }
+
+    .amenities-sub-title{
+        font-size: 14px;
+    }
+
+    .info-description{
+        font-size: 20px;
+    }
+
+    .sub-title{
+        font-size: 16px;
+    }
+
+    #intro{
+        height: 80vh;
+    }
+
+    .title {
+        line-height: 38px;
+    }
+
+    .info-description, .info-description-modelos{
+        line-height: 35px;
+    }
+
+    .container-img{
+        background-image: url(../images/intro/img_front_container.jpeg);
+    }
+
+    .info-description-modelos, .penthouse_metros .info{
+        font-size: 20px;
+    }
+}
+
+
+@media screen and (max-width: 380px) {
+    .navbar-dark .navbar-toggler{
+        width: 50px;
+        height: 50px;
+    }
+
+    #intro {
+        height: 88vh;
+    }
+
+    .title-banner, .title-banner2{
+        line-height: 30px;
+        letter-spacing: 7.36px;
+    }
+
+    .sub-title, .amenities-sub-title, .sub-title-modelos{
+        font-size: 16px;
+    }
+
+    .title, .title-modelos {
+        line-height: 38px;
+    }
+
+    .info-description, .info-description-modelos{
+        line-height: 35px;
+    }
+
+    .info-description-modelos, .penthouse_metros .info{
+        font-size: 20px;
+    }
+
+    .tab-style-07 .nav-tabs > li.nav-item > a.nav-link {
+        font-size: 18px;
+    }
+
+    .amenities-card-title{
+        font-size: 11px;
+    }
+
+    .container-img{
+        background-image: url(../images/intro/img_front_container.jpeg);
+    }
+}
+
+
+
 @media (max-height: 460px) {
     /* header search */
     .active-form .form-wrapper .search-form { height: 85vh; }
