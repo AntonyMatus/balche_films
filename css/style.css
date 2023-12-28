@@ -5967,3 +5967,8 @@ line-height: 30px; /* 187.5% */
     align-items: center; 
     justify-content: space-between;
 }
+
+.d-flex-end {
+    display: flex;
+    justify-content: flex-end;
+}

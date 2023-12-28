@@ -8046,6 +8046,29 @@
 
     .flex-column-reverse-responsive{
         flex-direction: column-reverse;
+        gap: 3rem;
+    }
+
+    .flex-column-responsive {
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .press-desc {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .margin-40px-lr {
+        margin-right: 1rem;
+    }
+
+    blockquote {
+        padding: 2px 100px;
+    }
+
+    blockquote p {
+        font-size: 22px;
     }
 
     .feature-box {
@@ -8096,10 +8119,34 @@
         font-size: 32px;
     }
 
+    .about-title-home{
+        font-size: 32px;
+        margin-bottom: 0px;
+    }
+
     .question_title {
         font-size: 32px;
         text-align: center;
         margin-top: 3rem;
+    }
+
+    .list-about li a {
+        display: block;
+        width: 100px;
+    }
+
+    .xs-no-padding-lr{
+        padding-right: 15px !important;
+        padding-left: 15px !important;
+    }
+
+    .margin-6-rem-bottom{
+        margin-bottom: 3rem;
+    }
+
+    .portfolio-filter {
+        display: flex;
+        gap: 1rem;
     }
 
     .cuadro-negro{
@@ -8109,6 +8156,61 @@
 
     .accordion-style-03 .panel .panel-heading {
         padding: 5px 0px 5px 24px;
+    }
+
+    .d-flex-end {
+        justify-content: center;
+    }
+
+    .elements-social .medium-icon li {
+        margin-bottom: 5px;
+    }
+
+    section.big-section{
+        padding: 80px 0;
+    }
+
+    .slider-navigation-style-07.swiper-button-prev.light {
+        left: 40%;
+    }
+    .slider-navigation-style-07.swiper-button-next.light {
+        right: 40%;
+    }
+
+    .other_project-title {
+        font-size: 32px;
+    }
+
+    .latest-post-sidebar li div{
+        padding-left: 0;
+    }
+
+    .latest-post-sidebar li .media-body {
+        gap: 1rem;
+    }
+
+    .icon_email-esp {
+        margin-right: 1rem;
+    }
+
+    .category-float {
+        bottom: 26px;
+    }
+
+    .title-aside, .text-large {
+        font-size: 22px !important;
+    }
+
+    .press-title-home {
+        font-size: 32px;
+    }
+
+    .span-lenguage {
+        font-size: 12px;
+    }
+
+    #contact {
+        padding-top: 0;
     }
 }
 
