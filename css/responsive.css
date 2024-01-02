@@ -6,6 +6,14 @@
  * Copyright (c) 2021 themezaa.com
  */
 
+
+ @media screen and (max-width: 4732px) and (min-width:1950px){
+    .hero {
+        height: auto;
+    }
+ }
+
+
 @media (min-width: 1901px) {
     .litho-parallax-bg { width: 45%; }
 }
@@ -1296,7 +1304,7 @@
 
 @media (min-width: 1199px) {
     /* page container */
-    .container, .container-lg, .container-md, .container-sm, .container-xl { max-width: 1170px; }
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-fluid { max-width: 1170px; }
 }
 
 @media (max-width: 1199px) {
@@ -4680,6 +4688,53 @@
     
     /* consulting */
     .home-dentist .popup-youtube.absolute-middle-center { left: 50%; }
+
+    .hero_wrapper .banner_image {
+        position: relative;
+        margin-top: 3rem;
+        left: 22%;
+        transform: translateY(0%);
+    }
+
+    .hero_container .hero_header, .hero_container .hero_des {
+        text-align: center;
+    }
+
+    .elements-social {
+        display: flex;
+        justify-content: center;
+    }
+
+    .project-title {
+        font-size: 32px;
+    }
+
+    .project-des{
+        font-size: 13px;
+    }
+
+    .button-client-dark{
+        width: 30px;
+        height: 30px;
+    }
+
+    .button-client-dark img {
+        width: 17px;
+        height: 17px;
+    }
+
+    .link-footer {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .flex-column-reverse-ipad {
+        flex-direction: column-reverse;
+    }
+
+    .text-md-end {
+        text-align: left !important;
+    }
 }
 
 @media only screen and (max-width: 991px) and (orientation: landscape) {

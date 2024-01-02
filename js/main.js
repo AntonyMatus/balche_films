@@ -2066,4 +2066,9 @@
         }
     }
     
+    $(window).on('load', function() {
+        $('.preloder').fadeOut('slow', function() {
+            $(this).remove();
+        });
+    });
 })( jQuery );
