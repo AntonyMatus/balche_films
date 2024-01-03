@@ -2783,7 +2783,7 @@ header.side-menu-nav { position: absolute; left: 0; width: 290px; top: -100%; mi
 .navbar-toggler:focus { box-shadow: none; }
 .navbar-toggler-line { background: #232323; height: 2px; width: 22px; content: ""; display: block; border-radius: 0; position: absolute; left: 0; right: 0; margin-left: auto; margin-right: auto; -webkit-transform: rotate(0deg); -moz-transform: rotate(0deg); -o-transform: rotate(0deg); transform: rotate(0deg); -webkit-transition: .25s ease-in-out; -moz-transition: .25s ease-in-out; -o-transition: .25s ease-in-out; transition: .25s ease-in-out;  }
 .navbar-dark .navbar-toggler-line { background: #fff; }
-header.sticky .header-light .navbar-toggler-line { background: #232323; }
+header.sticky .header-light .navbar-toggler-line { background: #fff; }
 
 header.sticky .navbar.header-dark .navbar-toggler-line { background: #fff; }
 .navbar-toggler-line:nth-child(1) { top: 0px; width: 14px; }
@@ -2795,7 +2795,7 @@ header.sticky .navbar.header-dark .navbar-toggler-line { background: #fff; }
 .navbar-collapse-show .navbar-toggler-line:nth-child(4) { top: 7px; width: 0%; }
 
 /* header background color on scroll */
-.sticky.header-appear .header-light, .sticky .header-light.header-always-fixed-scroll { background-color: #fff !important; box-shadow: 0 0 35px rgba(0,0,0,0.1); border-bottom: none !important }
+.sticky.header-appear .header-light, .sticky .header-light.header-always-fixed-scroll { background-color: #070707 !important;  border-bottom: none !important }
 .sticky.header-appear .header-dark, .sticky .header-dark.header-always-fixed-scroll { background-color: #000 !important; box-shadow: 0 0 35px rgba(0,0,0,0.1); border-bottom: none !important; transition-duration: 0.5s; -webkit-transition-duration: 0.5s; -moz-transition-duration: 0.5s; -ms-transition-duration: 0.5s; -o-transition-duration: 0.5s; }
 .sticky .header-light, .sticky .header-light.header-always-fixed-scroll { box-shadow: 0 0 35px rgba(0,0,0,0.1); }
 
@@ -6017,4 +6017,8 @@ line-height: 30px; /* 187.5% */
 	to {
 		transform: rotate(360deg);
 	}
+}
+
+.xl-d-none {
+    display: none;
 }

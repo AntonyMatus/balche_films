@@ -39,7 +39,7 @@
                         <a class="navbar-brand" href="index.html">
                             <img src="images/logo/logo_balche.png" data-at2x="images/logo/logo_balche.png" alt="" class="default-logo">
                             <img src="images/logo/logo_balche.png" data-at2x="images/logo/logo_balche.png" alt="" class="alt-logo">
-                            <img src="images/logo/logo_balche.png" data-at2x="images/logo/logo_balche.png" class="mobile-logo" alt="">
+                            <img src="images/logo/logo_balche_white.png" data-at2x="images/logo/logo_balche_white.png" class="mobile-logo" alt="">
                         </a>
                     </div>
                     <div class="col-auto col-lg-8 menu-order px-lg-0">
@@ -52,12 +52,12 @@
                         <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
                             <ul class="navbar-nav alt-font">
                                 <li class="nav-item dropdown megamenu">
-                                    <a href="#" class="nav-link">Home</a>
+                                    <a href="index.html" class="nav-link">Home</a>
                                    
                                    
                                 </li>
                                 <li class="nav-item dropdown simple-dropdown">
-                                    <a href="about_us.html" class="nav-link">About</a>
+                                    <a href="#" class="nav-link">About Us</a>
                                   
                                 </li>
                                 <li class="nav-item dropdown simple-dropdown">
@@ -75,10 +75,15 @@
                                 </li>
                               
                             </ul>
+                            <ul class="alt-font list-translate xl-d-none">
+                                <li><a href="javascript:void(0);" title="English"><span class="icon-country"><img src="images/country-flag-16X16/usa.png" alt=""></span> ENG</a></li>
+                               
+                                <li><a href="esp/index.html" title="Spain">ESP<span class="icon-country"><img src="images/country-flag-16X16/Mexico.png" alt=""></span></a></li>
+                            </ul>
                         </div>
                     </div>
-                    <div class="col-5 col-lg-2 text-end pe-0 ">
-                            <ul class="alt-font list-translate">
+                    <div class="col-5 col-lg-2 text-end pe-0 sm-d-none ">
+                            <ul class="alt-font list-translate ">
                                 <li><a href="javascript:void(0);" title="English"><span class="icon-country"><img src="images/country-flag-16X16/usa.png" alt=""></span> ENG</a></li>
                                
                                 <li><a href="esp/index.html" title="Spain">ESP<span class="icon-country"><img src="images/country-flag-16X16/Mexico.png" alt=""></span></a></li>
@@ -377,8 +382,7 @@
                             <div class="col-12 col-lg-4">
                                 <h3 class="contact-subtitle">Get In Touch</h3>
                                 <h2 class="contact-title">Let’s Talk For your Next Projects</h2>
-                                <span class="contact-des">Sed ut perspiciatis unde omnin natus totam 
-                                    rem aperiam eaque inventore veritatis</span>
+                                <span class="contact-des">Let’s collaborate</span>
                             </div>
                             <div class="col-12 col-lg-8">
                                 <!-- start contact form -->
@@ -400,10 +404,14 @@
                                             <label class="label-contact" for="phone">Subject</label>
                                             <input class="medium-input bg-white  required input-contact" type="text" name="subject" placeholder="Your subject">
                                         </div>
+                                    </div>
+                                    <div class="row">
                                         <div class="col-12 col-lg-12 margin-1-rem-bottom sm-margin-10px-bottom">
                                             <label class="label-contact" for="comment">Message</label>
                                             <textarea class="medium-textarea h-200px bg-white input-contact" name="comment" placeholder="write message"></textarea>
                                         </div>
+                                    </div>
+                                    <div class="row">
                                         <div class="col-12 col-lg-12 text-left text-md-start">
                                             <input type="hidden" name="redirect" value="">
                                             <button class="btn btn-large btn-dark-gray btn-rounded d-table d-lg-inline-block lg-margin-15px-bottom md-margin-auto-lr btn-contact mb-0 submit" type="submit">Send Us Message</button>
@@ -424,7 +432,7 @@
                 <div class="container">
                     <div class="row">
                         <!-- start footer column -->
-                        <div class="col-12 col-lg-3 col-md-4 col-sm-6 order-sm-1 order-lg-0 md-margin-50px-bottom xs-margin-25px-bottom">
+                        <div class="col-12 col-lg-3 col-md-4 col-sm-6 order-sm-1 order-lg-0 sm-text-center md-margin-50px-bottom xs-margin-25px-bottom">
                             <a href="index.html" class="footer-logo margin-20px-bottom d-block"><img src="images/logo/logo_balche_white.png" data-at2x="images/logo/logo_balche_white.png" alt=""></a>
                             
                         </div>
@@ -441,7 +449,7 @@
                             </ul>                                   
                         </div>
                         <!-- end footer column -->
-                        <div class="col-12 col-lg-4 col-sm-5 order-sm-4 order-lg-0 xs-margin-25px-bottom ">
+                        <div class="col-12 col-lg-4 col-sm-5 order-sm-4 order-lg-0 xs-margin-25px-bottom sm-d-none">
                             <span class="footer-link-title">Address</span>
                             <div class="addres-item"><i class="fa fa-map-marker icon-very-small margin-10px-right text-white"></i><a href="#!">
                                 1200 W Riverside Drive, <br> Burbank, CA. 91506
@@ -455,9 +463,9 @@
             </div>
             <div class="footer-bottom padding-35px-tb border-top border-color-white-transparent">
                 <div class="container"> 
-                    <div class="row justify-content-center align-items-center">
+                    <div class="row justify-content-center align-items-center flex-column-reverse-ipad sm-gap-2rem">
 
-                        <div class="col-12 col-xl-4 col-md-5 sm-margin-10px-bottom xs-margin-15px-bottom p-0">
+                        <div class="col-12 col-xl-4 col-md-5 sm-margin-10px-bottom xs-margin-15px-bottom p-0 sm-d-none ">
                             <ul class="footer-horizontal-link d-flex flex-column flex-sm-row justify-content-sm-center justify-content-md-start inter fz-14px">
                                 <li><a href="#">Facebook</a></li>
                                 <li><a href="#">Twitter</a></li>
@@ -470,8 +478,8 @@
                                 <img src="images/icons/vector_footer.png" alt="vector footer">
                             </a>
                         </div>
-                        <div class="col-12 col-xl-6 col-md-6 text-start text-sm-center text-md-end last-paragraph-no-margin p-0">
-                            <p class="text-white inter fz-14px">Copyright @2023, <strong>Balché Films</strong>  All Rights Reserved - Powered by <a href="https://www.themezaa.com/" target="_blank" class="text-decoration-line-bottom text-white">Búho Solutions</a>.</p>
+                        <div class="col-8 col-xl-6 col-md-6 text-start text-sm-center text-md-end last-paragraph-no-margin p-0">
+                            <p class="text-white inter fz-14px sm-fz-19px sm-text-center">Copyright @2023, <strong>Balché Films</strong>  All Rights Reserved - Powered by <a href="https://www.themezaa.com/" target="_blank" class="text-decoration-line-bottom text-white">Búho Solutions</a>.</p>
                         </div>
                     </div>
                 </div>
