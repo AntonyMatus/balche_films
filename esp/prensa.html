@@ -6,7 +6,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="author" content="ThemeZaa">
         <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1" />
-        <meta name="description" content="">
+        <meta name="description" content="Balché Films es una compañía de producción cinematográfica centrada en contar narrativas profundas e impactantes en el ámbito del cine de género, principalmente en horror y fantasía, que destacan las complejidades de la naturaleza humana."> 
         <!-- favicon icon -->
         <link rel="shortcut icon" href="../images/favicon.png">
         <link rel="apple-touch-icon" href="images/apple-touch-icon-57x57.png">
@@ -23,19 +23,26 @@
         <link rel="stylesheet" type="text/css" href="../revolution/css/navigation.css">
     </head>
     <body data-mobile-nav-style="classic">
+        <!--== preloader area here ==-->
+        <div class="preloder">
+            <div class="pre-loading"></div>
+        </div>
+        <!--== preloader area ends here ==-->
+
+
         <!-- start header -->
         <header>
             <!-- start navigation -->
             <nav class="navbar navbar-expand-lg top-space navbar-light bg-white-client header-light fixed-top navbar-boxed header-reverse-scroll">
                 <div class="container-fluid nav-header-container">
-                    <div class="col-5 col-sm-6 col-lg-2 me-auto ps-lg-0">
+                    <div class="col-5 col-xl-2 col-sm-4 col-lg-2 me-auto ps-lg-0">
                         <a class="navbar-brand" href="index.html">
                             <img src="../images/logo/logo_balche.png" data-at2x="../images/logo/logo_balche.png" alt="" class="default-logo">
-                            <img src="../images/logo/logo_balche.png" data-at2x="../images/logo/logo_balche.png" alt="" class="alt-logo">
-                            <img src="../images/logo/logo_balche.png" data-at2x="../images/logo/logo_balche.png" class="mobile-logo" alt="">
+                            <img src="../images/logo/logo_balche_white.png" data-at2x="../images/logo/logo_balche_white.png" alt="" class="alt-logo">
+                            <img src="../images/logo/logo_balche_white.png" data-at2x="../images/logo/logo_balche_white.png" class="mobile-logo" alt="">
                         </a>
                     </div>
-                    <div class="col-auto col-lg-8 menu-order px-lg-0">
+                    <div class="col-auto col-xl-8 col-lg-8 menu-order px-lg-0">
                         <button class="navbar-toggler float-end" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-label="Toggle navigation">
                             <span class="navbar-toggler-line"></span>
                             <span class="navbar-toggler-line"></span>
@@ -43,6 +50,11 @@
                             <span class="navbar-toggler-line"></span>
                         </button>
                         <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                            <ul class="alt-font list-translate xl-d-none">
+                                <li><a href="../press.html" title="English"><span class="icon-country"><img src="../images/country-flag-16X16/usa.png" alt=""></span> ENG</a></li>
+                               
+                                <li><a href="#" title="Spain">ESP<span class="icon-country"><img src="../images/country-flag-16X16/Mexico.png" alt=""></span></a></li>
+                            </ul>
                             <ul class="navbar-nav alt-font">
                                 <li class="nav-item dropdown megamenu">
                                     <a href="index.html" class="nav-link">Inicio</a>
@@ -59,7 +71,7 @@
                                     
                                 </li>
                                 <li class="nav-item dropdown megamenu">
-                                    <a href="#" class="nav-link">Prensa</a>
+                                    <a href="prensa.html" class="nav-link">Prensa</a>
                                    
                                 </li>
                                 <li class="nav-item dropdown simple-dropdown">
@@ -68,13 +80,14 @@
                                 </li>
                               
                             </ul>
+                            
                         </div>
                     </div>
-                    <div class="col-5 col-lg-2 text-end pe-0 ">
+                    <div class="col-5 col-xl-2 col-lg-3 text-end pe-0 sm-d-none lg-text-left ">
                             <ul class="alt-font list-translate">
-                                <li><a href="javascript:void(0);" title="English"><span class="icon-country"><img src="../images/country-flag-16X16/usa.png" alt=""></span> ENG</a></li>
+                                <li><a href="../press.html" title="English"><span class="icon-country"><img src="../images/country-flag-16X16/usa.png" alt=""></span> ENG</a></li>
                                
-                                <li><a href="javascript:void(0);" title="Spain">ESP<span class="icon-country"><img src="../images/country-flag-16X16/Mexico.png" alt=""></span></a></li>
+                                <li><a href="#" title="Spain">ESP<span class="icon-country"><img src="../images/country-flag-16X16/Mexico.png" alt=""></span></a></li>
                             </ul>
                     </div>
                 </div>
@@ -91,7 +104,7 @@
                 </div>
                 <div class="row">
                     <div class="col-12 col-lg-12 pe-lg-0 d-flex md-margin-30px-bottom ">
-                        <div class="w-100 md-h-700px sm-h-550px xs-h-450px d-flex justify-content-center">
+                        <div class="w-100 md-h-100px sm-h-550px xs-h-450px d-flex justify-content-center">
                             <ul class="list-about">
                                 <li><a href="index.html">Inicio</a></li>
                                 <li> <div class="point"></div></li>
@@ -105,15 +118,15 @@
 
         <section class="blog-right-side-bar pt-0">
             <div class="container">
-                <div class="row justify-content-center flex-column-reverse-responsive">
-                    <div class="col-12 col-lg-8 right-sidebar md-margin-60px-bottom sm-margin-40px-bottom">
+                <div class="row justify-content-center flex-column-reverse-responsive flex-column-reverse-ipad">
+                    <div class="col-12 col-xl-8 col-lg-8 right-sidebar md-margin-60px-bottom sm-margin-40px-bottom">
                         <ul class="blog-grid blog-wrapper grid grid-2col xl-grid-2col lg-grid-2col md-grid-2col sm-grid-1col xs-grid-1col gutter-extra-large" style="position: relative; height: 1750.12px;">
                             <li class="grid-sizer"></li>
                             <!-- start blog item -->
                             <li class="grid-item wow animate__fadeIn  border-radius-16px" style="visibility: visible; position: absolute; left: 0%; top: 0px; animation-name: fadeIn;">
                                 <div class="blog-post border-radius-5px bg-dark-client box-shadow-medium position-relative">
                                     <div class="blog-post-image border-radius-16px margin-10px-all">
-                                        <a href="prensa_individual.html" title=""><img src="https://via.placeholder.com/800x560" alt="" data-no-retina=""></a>
+                                        <a href="prensa_individual.html" title=""><img src="https://via.placeholder.com/800" alt="" data-no-retina=""></a>
                                     </div>
                                     <div class="post-details padding-3-rem-lr padding-2-half-rem-tb">
                                         <a href="prensa_individual.html" class="alt-font font-weight-500 text-extra-medium text-white margin-15px-bottom d-block padding-five-bottom border-bottom-gray">At vero eos et accusamus et iusto odio</a>
@@ -122,7 +135,7 @@
                                             <span class="date_esp">September 25, 2023</span>
                                         </div>
                                     </div>
-                                    <a href="#" class="category-float">English</a>
+                                    <a href="blog-masonry.html" class="category-float">English</a>
                                 </div>
                             </li>
                             <!-- end blog item -->
@@ -130,7 +143,7 @@
                             <li class="grid-item wow animate__fadeIn  border-radius-16px" style="visibility: visible; position: absolute; left: 0%; top: 0px; animation-name: fadeIn;">
                                 <div class="blog-post border-radius-5px bg-dark-client box-shadow-medium position-relative">
                                     <div class="blog-post-image border-radius-16px margin-10px-all">
-                                        <a href="prensa_individual.html" title=""><img src="https://via.placeholder.com/800x560" alt="" data-no-retina=""></a>
+                                        <a href="prensa_individual.html" title=""><img src="https://via.placeholder.com/800" alt="" data-no-retina=""></a>
                                     </div>
                                     <div class="post-details padding-3-rem-lr padding-2-half-rem-tb">
                                         <a href="prensa_individual.html" class="alt-font font-weight-500 text-extra-medium text-white margin-15px-bottom d-block padding-five-bottom border-bottom-gray">At vero eos et accusamus et iusto odio</a>
@@ -139,7 +152,7 @@
                                             <span class="date_esp">September 25, 2023</span>
                                         </div>
                                     </div>
-                                    <a href="#" class="category-float">English</a>
+                                    <a href="blog-masonry.html" class="category-float">English</a>
                                 </div>
                             </li>
                             <!-- end blog item -->
@@ -147,7 +160,7 @@
                             <li class="grid-item wow animate__fadeIn  border-radius-16px" style="visibility: visible; position: absolute; left: 0%; top: 0px; animation-name: fadeIn;">
                                 <div class="blog-post border-radius-5px bg-dark-client box-shadow-medium position-relative">
                                     <div class="blog-post-image border-radius-16px margin-10px-all">
-                                        <a href="prensa_individual.html" title=""><img src="https://via.placeholder.com/800x560" alt="" data-no-retina=""></a>
+                                        <a href="prensa_individual.html" title=""><img src="https://via.placeholder.com/800" alt="" data-no-retina=""></a>
                                     </div>
                                     <div class="post-details padding-3-rem-lr padding-2-half-rem-tb">
                                         <a href="prensa_individual.html" class="alt-font font-weight-500 text-extra-medium text-white margin-15px-bottom d-block padding-five-bottom border-bottom-gray">At vero eos et accusamus et iusto odio</a>
@@ -156,7 +169,7 @@
                                             <span class="date_esp">September 25, 2023</span>
                                         </div>
                                     </div>
-                                    <a href="#" class="category-float">English</a>
+                                    <a href="blog-masonry.html" class="category-float">English</a>
                                 </div>
                             </li>
                             <!-- end blog item -->
@@ -164,7 +177,7 @@
                             <li class="grid-item wow animate__fadeIn  border-radius-16px" style="visibility: visible; position: absolute; left: 0%; top: 0px; animation-name: fadeIn;">
                                 <div class="blog-post border-radius-5px bg-dark-client box-shadow-medium position-relative">
                                     <div class="blog-post-image border-radius-16px margin-10px-all">
-                                        <a href="prensa_individual.html" title=""><img src="https://via.placeholder.com/800x560" alt="" data-no-retina=""></a>
+                                        <a href="prensa_individual.html" title=""><img src="https://via.placeholder.com/800" alt="" data-no-retina=""></a>
                                     </div>
                                     <div class="post-details padding-3-rem-lr padding-2-half-rem-tb">
                                         <a href="prensa_individual.html" class="alt-font font-weight-500 text-extra-medium text-white margin-15px-bottom d-block padding-five-bottom border-bottom-gray">At vero eos et accusamus et iusto odio</a>
@@ -173,7 +186,7 @@
                                             <span class="date_esp">September 25, 2023</span>
                                         </div>
                                     </div>
-                                    <a href="#" class="category-float">English</a>
+                                    <a href="blog-masonry.html" class="category-float">English</a>
                                 </div>
                             </li>
                             <!-- end blog item -->
@@ -181,7 +194,7 @@
                             <li class="grid-item wow animate__fadeIn  border-radius-16px" style="visibility: visible; position: absolute; left: 0%; top: 0px; animation-name: fadeIn;">
                                 <div class="blog-post border-radius-5px bg-dark-client box-shadow-medium position-relative">
                                     <div class="blog-post-image border-radius-16px margin-10px-all">
-                                        <a href="prensa_individual.html" title=""><img src="https://via.placeholder.com/800x560" alt="" data-no-retina=""></a>
+                                        <a href="prensa_individual.html" title=""><img src="https://via.placeholder.com/800" alt="" data-no-retina=""></a>
                                     </div>
                                     <div class="post-details padding-3-rem-lr padding-2-half-rem-tb">
                                         <a href="prensa_individual.html" class="alt-font font-weight-500 text-extra-medium text-white margin-15px-bottom d-block padding-five-bottom border-bottom-gray">At vero eos et accusamus et iusto odio</a>
@@ -190,7 +203,7 @@
                                             <span class="date_esp">September 25, 2023</span>
                                         </div>
                                     </div>
-                                    <a href="#" class="category-float">English</a>
+                                    <a href="blog-masonry.html" class="category-float">English</a>
                                 </div>
                             </li>
                             <!-- end blog item -->
@@ -198,7 +211,7 @@
                             <li class="grid-item wow animate__fadeIn  border-radius-16px" style="visibility: visible; position: absolute; left: 0%; top: 0px; animation-name: fadeIn;">
                                 <div class="blog-post border-radius-5px bg-dark-client box-shadow-medium position-relative">
                                     <div class="blog-post-image border-radius-16px margin-10px-all">
-                                        <a href="prensa_individual.html" title=""><img src="https://via.placeholder.com/800x560" alt="" data-no-retina=""></a>
+                                        <a href="prensa_individual.html" title=""><img src="https://via.placeholder.com/800" alt="" data-no-retina=""></a>
                                     </div>
                                     <div class="post-details padding-3-rem-lr padding-2-half-rem-tb">
                                         <a href="prensa_individual.html" class="alt-font font-weight-500 text-extra-medium text-white margin-15px-bottom d-block padding-five-bottom border-bottom-gray">At vero eos et accusamus et iusto odio</a>
@@ -207,7 +220,7 @@
                                             <span class="date_esp">September 25, 2023</span>
                                         </div>
                                     </div>
-                                    <a href="#" class="category-float">English</a>
+                                    <a href="blog-masonry.html" class="category-float">English</a>
                                 </div>
                             </li>
                             <!-- end blog item -->
@@ -215,7 +228,7 @@
                             <li class="grid-item wow animate__fadeIn  border-radius-16px" style="visibility: visible; position: absolute; left: 0%; top: 0px; animation-name: fadeIn;">
                                 <div class="blog-post border-radius-5px bg-dark-client box-shadow-medium position-relative">
                                     <div class="blog-post-image border-radius-16px margin-10px-all">
-                                        <a href="prensa_individual.html" title=""><img src="https://via.placeholder.com/800x560" alt="" data-no-retina=""></a>
+                                        <a href="prensa_individual.html" title=""><img src="https://via.placeholder.com/800" alt="" data-no-retina=""></a>
                                     </div>
                                     <div class="post-details padding-3-rem-lr padding-2-half-rem-tb">
                                         <a href="prensa_individual.html" class="alt-font font-weight-500 text-extra-medium text-white margin-15px-bottom d-block padding-five-bottom border-bottom-gray">At vero eos et accusamus et iusto odio</a>
@@ -224,7 +237,7 @@
                                             <span class="date_esp">September 25, 2023</span>
                                         </div>
                                     </div>
-                                    <a href="#" class="category-float">English</a>
+                                    <a href="blog-masonry.html" class="category-float">English</a>
                                 </div>
                             </li>
                             <!-- end blog item -->
@@ -232,7 +245,7 @@
                             <li class="grid-item wow animate__fadeIn  border-radius-16px" style="visibility: visible; position: absolute; left: 0%; top: 0px; animation-name: fadeIn;">
                                 <div class="blog-post border-radius-5px bg-dark-client box-shadow-medium position-relative">
                                     <div class="blog-post-image border-radius-16px margin-10px-all">
-                                        <a href="prensa_individual.html" title=""><img src="https://via.placeholder.com/800x560" alt="" data-no-retina=""></a>
+                                        <a href="prensa_individual.html" title=""><img src="https://via.placeholder.com/800" alt="" data-no-retina=""></a>
                                     </div>
                                     <div class="post-details padding-3-rem-lr padding-2-half-rem-tb">
                                         <a href="prensa_individual.html" class="alt-font font-weight-500 text-extra-medium text-white margin-15px-bottom d-block padding-five-bottom border-bottom-gray">At vero eos et accusamus et iusto odio</a>
@@ -241,7 +254,7 @@
                                             <span class="date_esp">September 25, 2023</span>
                                         </div>
                                     </div>
-                                    <a href="#" class="category-float">English</a>
+                                    <a href="blog-masonry.html" class="category-float">English</a>
                                 </div>
                             </li>
                             <!-- end blog item -->
@@ -249,7 +262,7 @@
                             <li class="grid-item wow animate__fadeIn  border-radius-16px" style="visibility: visible; position: absolute; left: 0%; top: 0px; animation-name: fadeIn;">
                                 <div class="blog-post border-radius-5px bg-dark-client box-shadow-medium position-relative">
                                     <div class="blog-post-image border-radius-16px margin-10px-all">
-                                        <a href="prensa_individual.html" title=""><img src="https://via.placeholder.com/800x560" alt="" data-no-retina=""></a>
+                                        <a href="prensa_individual.html" title=""><img src="https://via.placeholder.com/800" alt="" data-no-retina=""></a>
                                     </div>
                                     <div class="post-details padding-3-rem-lr padding-2-half-rem-tb">
                                         <a href="prensa_individual.html" class="alt-font font-weight-500 text-extra-medium text-white margin-15px-bottom d-block padding-five-bottom border-bottom-gray">At vero eos et accusamus et iusto odio</a>
@@ -258,7 +271,7 @@
                                             <span class="date_esp">September 25, 2023</span>
                                         </div>
                                     </div>
-                                    <a href="#" class="category-float">English</a>
+                                    <a href="blog-masonry.html" class="category-float">English</a>
                                 </div>
                             </li>
                             <!-- end blog item -->
@@ -266,7 +279,7 @@
                             <li class="grid-item wow animate__fadeIn  border-radius-16px" style="visibility: visible; position: absolute; left: 0%; top: 0px; animation-name: fadeIn;">
                                 <div class="blog-post border-radius-5px bg-dark-client box-shadow-medium position-relative">
                                     <div class="blog-post-image border-radius-16px margin-10px-all">
-                                        <a href="prensa_individual.html" title=""><img src="https://via.placeholder.com/800x560" alt="" data-no-retina=""></a>
+                                        <a href="prensa_individual.html" title=""><img src="https://via.placeholder.com/800" alt="" data-no-retina=""></a>
                                     </div>
                                     <div class="post-details padding-3-rem-lr padding-2-half-rem-tb">
                                         <a href="prensa_individual.html" class="alt-font font-weight-500 text-extra-medium text-white margin-15px-bottom d-block padding-five-bottom border-bottom-gray">At vero eos et accusamus et iusto odio</a>
@@ -275,7 +288,7 @@
                                             <span class="date_esp">September 25, 2023</span>
                                         </div>
                                     </div>
-                                    <a href="#" class="category-float">English</a>
+                                    <a href="blog-masonry.html" class="category-float">English</a>
                                 </div>
                             </li>
                             <!-- end blog item -->
@@ -283,7 +296,7 @@
                             <li class="grid-item wow animate__fadeIn  border-radius-16px" style="visibility: visible; position: absolute; left: 0%; top: 0px; animation-name: fadeIn;">
                                 <div class="blog-post border-radius-5px bg-dark-client box-shadow-medium position-relative">
                                     <div class="blog-post-image border-radius-16px margin-10px-all">
-                                        <a href="prensa_individual.html" title=""><img src="https://via.placeholder.com/800x560" alt="" data-no-retina=""></a>
+                                        <a href="prensa_individual.html" title=""><img src="https://via.placeholder.com/800" alt="" data-no-retina=""></a>
                                     </div>
                                     <div class="post-details padding-3-rem-lr padding-2-half-rem-tb">
                                         <a href="prensa_individual.html" class="alt-font font-weight-500 text-extra-medium text-white margin-15px-bottom d-block padding-five-bottom border-bottom-gray">At vero eos et accusamus et iusto odio</a>
@@ -292,7 +305,7 @@
                                             <span class="date_esp">September 25, 2023</span>
                                         </div>
                                     </div>
-                                    <a href="#" class="category-float">English</a>
+                                    <a href="blog-masonry.html" class="category-float">English</a>
                                 </div>
                             </li>
                             <!-- end blog item -->
@@ -300,7 +313,7 @@
                             <li class="grid-item wow animate__fadeIn  border-radius-16px" style="visibility: visible; position: absolute; left: 0%; top: 0px; animation-name: fadeIn;">
                                 <div class="blog-post border-radius-5px bg-dark-client box-shadow-medium position-relative">
                                     <div class="blog-post-image border-radius-16px margin-10px-all">
-                                        <a href="prensa_individual.html" title=""><img src="https://via.placeholder.com/800x560" alt="" data-no-retina=""></a>
+                                        <a href="prensa_individual.html" title=""><img src="https://via.placeholder.com/800" alt="" data-no-retina=""></a>
                                     </div>
                                     <div class="post-details padding-3-rem-lr padding-2-half-rem-tb">
                                         <a href="prensa_individual.html" class="alt-font font-weight-500 text-extra-medium text-white margin-15px-bottom d-block padding-five-bottom border-bottom-gray">At vero eos et accusamus et iusto odio</a>
@@ -309,7 +322,7 @@
                                             <span class="date_esp">September 25, 2023</span>
                                         </div>
                                     </div>
-                                    <a href="#" class="category-float">English</a>
+                                    <a href="blog-masonry.html" class="category-float">English</a>
                                 </div>
                             </li>
                             <!-- end blog item -->
@@ -326,9 +339,9 @@
                         </div>
                     </div>
                     <!-- start sidebar -->
-                    <aside class="col-12 col-xl-3 offset-xl-1 col-lg-4 col-md-7 blog-sidebar lg-padding-4-rem-left md-padding-15px-left bg-dark-client border-radius-16px h-1200px">
-                        <div class="d-inline-block w-100 margin-5-rem-bottom">
-                            <span class="alt-font font-weight-500 text-large text-white d-block margin-25px-top margin-25px-bottom title-aside">Buscar publicaciones</span>
+                    <aside class="col-12 col-xl-3 offset-xl-1 col-lg-4 col-md-12 blog-sidebar lg-padding-1-rem-left md-padding-15px-left bg-dark-client border-radius-16px h-1200px ">
+                        <div class="d-inline-block w-100 md-margin-2-half-rem-bottom lg-margin-2-half-rem-bottom xl-padding-2-half-rem-bottom ">
+                            <span class="alt-font font-weight-500 text-large text-white d-block margin-25px-top margin-25px-bottom title-aside">Search posts</span>
                             <form id="search-form" role="search" method="get" action="search-result.html">
                                 <div class="position-relative">
                                     <input class="search-input medium-input border-color-medium-gray border-radius-4px mb-0" placeholder="Enter your keywords..." name="s" value="" type="text" autocomplete="off">
@@ -338,7 +351,7 @@
                         </div>
                         
                         <div class="margin-3-rem-bottom xs-margin-35px-bottom wow animate__fadeIn" style="visibility: visible; animation-name: fadeIn;">
-                            <span class="alt-font font-weight-500 text-large text-white d-block margin-35px-bottom title-aside">Categorias</span>
+                            <span class="alt-font font-weight-500 text-large text-white d-block margin-35px-bottom title-aside">Categories</span>
                             <ul class="list-style-07 list-unstyled">
                                 <li><a class="hover-white" href="blog-grid.html">> &nbsp; Español</a><span class="item-qty"></span></li>
                                 <li><a href="blog-grid.html">> &nbsp; English</a><span class="item-qty"></span></li>
@@ -346,11 +359,11 @@
                             </ul>
                         </div>
                         <div class="margin-5-rem-bottom xs-margin-35px-bottom wow animate__fadeIn" style="visibility: visible; animation-name: fadeIn;">
-                            <span class="alt-font font-weight-500 text-large text-white d-block margin-35px-bottom title-aside">Últimas noticias</span>
+                            <span class="alt-font font-weight-500 text-large text-white d-block margin-35px-bottom title-aside">Latest News</span>
                             <ul class="latest-post-sidebar position-relative">
                                 <li class="d-flex wow animate__fadeIn align-items-center" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">
                                     <figure class="flex-shrink-0">
-                                        <a href="blog-post-layout-01.html"><img class="border-radius-100" src="https://via.placeholder.com/940x940" width="60px" height="60px" alt="" data-no-retina=""></a>
+                                        <a href="prensa_individual.html"><img class="border-radius-100" src="https://via.placeholder.com/940x940" width="60px" height="60px" alt="" data-no-retina=""></a>
                                     </figure>
                                     <div class="media-body flex-grow-1">
                                         <div class="email_date_esp">
@@ -362,7 +375,7 @@
                                 </li>
                                 <li class="d-flex wow animate__fadeIn align-items-center" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">
                                     <figure class="flex-shrink-0">
-                                        <a href="blog-post-layout-01.html"><img class="border-radius-100" src="https://via.placeholder.com/940x940" width="60px" height="60px" alt="" data-no-retina=""></a>
+                                        <a href="prensa_individual.html"><img class="border-radius-100" src="https://via.placeholder.com/940x940" width="60px" height="60px" alt="" data-no-retina=""></a>
                                     </figure>
                                     <div class="media-body flex-grow-1">
                                         <div class="email_date_esp">
@@ -374,7 +387,7 @@
                                 </li>
                                 <li class="d-flex wow animate__fadeIn align-items-center" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">
                                     <figure class="flex-shrink-0">
-                                        <a href="blog-post-layout-01.html"><img class="border-radius-100" src="https://via.placeholder.com/940x940" width="60px" height="60px" alt="" data-no-retina=""></a>
+                                        <a href="prensa_individual.html"><img class="border-radius-100" src="https://via.placeholder.com/940x940" width="60px" height="60px" alt="" data-no-retina=""></a>
                                     </figure>
                                     <div class="media-body flex-grow-1">
                                         <div class="email_date_esp">
@@ -390,11 +403,12 @@
                         </div>
                         <div class="margin-5-rem-bottom xs-margin-35px-bottom md-padding-3-rem-top wow animate__fadeIn bg-client-black h-300px border-radius-16px " style="visibility: visible; animation-name: fadeIn; display: flex;
                         flex-direction: column; justify-content: end;">
-                            <span class="alt-font  text-large text-white d-block margin-20px-bottom margin-20px-left">¡Ponerse en contacto!</span>
+                            <span class="alt-font  text-large text-white d-block margin-20px-bottom margin-20px-left">Get in touch!</span>
 
-                            <h6 class="text-white margin-20px-left">Hablemos de tu próximo proyecto</h6>
+                            <h6 class="text-white margin-20px-left">Let’s talk about your
+                                next project</h6>
 
-                            <a class="btn btn-white border-radius-16px text-capitalize margin-20px-left w-60 margin-ten-bottom botton-contact-aside" href="#">Contactanos ></a>
+                            <a class="btn btn-white border-radius-16px text-capitalize margin-20px-left w-50 margin-ten-bottom botton-contact-aside" href="#">Contact ></a>
                             
                         </div>
                         
@@ -409,14 +423,13 @@
                 <div class="container">
                     <div class="row">
                         <!-- start footer column -->
-                        <div class="col-12 col-lg-3 col-md-5 col-sm-6 order-sm-1 order-lg-0 md-margin-50px-bottom xs-margin-25px-bottom">
+                        <div class="col-12 col-xl-3 col-lg-2 col-md-4 col-sm-6 order-sm-1 order-lg-0 sm-text-center md-margin-50px-bottom xs-margin-25px-bottom">
                             <a href="index.html" class="footer-logo margin-20px-bottom d-block"><img src="../images/logo/logo_balche_white.png" data-at2x="images/logo/logo_balche_white.png" alt=""></a>
-                            
                             
                         </div>
                         <!-- end footer column -->
                         <!-- start footer column -->
-                        <div class="col-12 col-lg-5 col-sm-4 order-sm-3 order-lg-0 xs-margin-25px-bottom footer-link-content">
+                        <div class="col-12 col-xl-5 col-lg-6 col-sm-3 order-sm-3 order-lg-0 xs-margin-25px-bottom footer-link-content">
                             <span class="footer-link-title">Links</span>
                             <ul class="link-footer" >
                                 <li><a href="#">Inicio</a></li>
@@ -427,9 +440,9 @@
                             </ul>                                   
                         </div>
                         <!-- end footer column -->
-                        <div class="col-12 col-lg-4 col-sm-4 order-sm-4 order-lg-0 xs-margin-25px-bottom ">
-                            <span class="footer-link-title">Información</span>
-                            <div class="addres-item"><i class="fa fa-map-marker icon-very-small margin-10px-right text-white"></i><a href="#">
+                        <div class="col-12 col-xl-4 col-lg-4 col-sm-5 order-sm-4 order-lg-0 xs-margin-25px-bottom sm-d-none">
+                            <span class="footer-link-title">Direccion</span>
+                            <div class="addres-item"><i class="fa fa-map-marker icon-very-small margin-10px-right text-white"></i><a href="#!">
                                 1200 W Riverside Drive, <br> Burbank, CA. 91506
                             </a></div>
                             <div class="addres-item"><i class="feather icon-feather-mail icon-very-small margin-10px-right text-white"></i><a href="mailto:contact@balchefilms.com">contact@balchefilms.com</a></div>
@@ -439,11 +452,11 @@
                     </div>
                 </div>
             </div>
-            <div class="footer-bottom padding-35px-tb border-top border-color-white-transparent">
+            <div class="footer-bottom padding-35px-tb border-top border-color-white-transparent lg-h-200px">
                 <div class="container"> 
-                    <div class="row justify-content-center align-items-center">
+                    <div class="row justify-content-center align-items-center flex-column-reverse-ipad sm-gap-2rem md-gap-2rem">
 
-                        <div class="col-12 col-xl-4 col-md-6 sm-margin-10px-bottom xs-margin-15px-bottom p-0">
+                        <div class="col-12 col-xl-4 col-lg-5 col-md-5 sm-margin-10px-bottom xs-margin-15px-bottom p-0 sm-d-none md-d-none ">
                             <ul class="footer-horizontal-link d-flex flex-column flex-sm-row justify-content-sm-center justify-content-md-start inter fz-14px">
                                 <li><a href="#">Facebook</a></li>
                                 <li><a href="#">Twitter</a></li>
@@ -451,13 +464,13 @@
                                 <li><a href="#">LinkedIn</a></li>
                             </ul>                         
                         </div>
-                        <div class="col col-xl-1 col-container-footer p-0">
+                        <div class="col col-xl-2 col-lg-1 col-container-footer p-0">
                             <a href="javascript:void(0);" class="container-footer-icon wow animate__fadeIn " data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">
                                 <img src="../images/icons/vector_footer.png" alt="vector footer">
                             </a>
                         </div>
-                        <div class="col-12 col-xl-7 col-md-6 text-start text-sm-center text-md-end last-paragraph-no-margin p-0">
-                            <p class="text-white inter fz-14px">Copyright 2023, <strong>Balché Films</strong> Todos los derechos reservados - Desarrollado por <a href="https://www.themezaa.com/" target="_blank" class="text-decoration-line-bottom text-white">Búho Solutions</a>.</p>
+                        <div class="col-8 col-xl-6 col-lg-6 col-md-6 text-start text-sm-center md-text-center text-md-end last-paragraph-no-margin p-0">
+                            <p class="text-white inter fz-14px sm-fz-19px sm-text-center">Copyright @2023, <strong>Balché Films</strong>  Todos los derechos reservados - Desarrollado por <a href="https://www.themezaa.com/" target="_blank" class="text-decoration-line-bottom text-white">Búho Solutions</a>.</p>
                         </div>
                     </div>
                 </div>

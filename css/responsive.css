@@ -2731,8 +2731,8 @@
     .slider-navigation-style-04.swiper-button-next { right: -20%; }
 
     /* slider navigation style 07 */
-    .slider-navigation-style-07.swiper-button-prev.light { left: -5px;}
-    .slider-navigation-style-07.swiper-button-next.light { right: -5px;}
+    .slider-navigation-style-07.swiper-button-prev.light { left: 44%;}
+    .slider-navigation-style-07.swiper-button-next.light { right: 44%;}
 
     /* grid */
     .grid.lg-grid-6col li { width: 16.67%; }
@@ -2862,6 +2862,20 @@
 
     .about-title {
         font-size: 28px;
+    }
+
+    .about-title-home {
+        font-size: 65px;
+    }
+
+    .lg-justify-content-between {
+        justify-content: space-between !important;
+    }
+
+    .medium-icon a {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
     }
 
 }

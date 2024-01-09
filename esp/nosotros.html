@@ -6,7 +6,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="author" content="ThemeZaa">
         <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1" />
-        <meta name="description" content="Balché Films es una compañía de producción cinematográfica centrada en contar narrativas profundas e impactantes en el ámbito del cine de género, principalmente en horror y fantasía, que destacan las complejidades de la naturaleza humana"> 
+        <meta name="description" content="Balché Films es una compañía de producción cinematográfica centrada en contar narrativas profundas e impactantes en el ámbito del cine de género, principalmente en horror y fantasía, que destacan las complejidades de la naturaleza humana."> 
         <!-- favicon icon -->
         <link rel="shortcut icon" href="../images/favicon.png">
         <link rel="apple-touch-icon" href="images/apple-touch-icon-57x57.png">
@@ -23,19 +23,26 @@
         <link rel="stylesheet" type="text/css" href="../revolution/css/navigation.css">
     </head>
     <body data-mobile-nav-style="classic">
+        <!--== preloader area here ==-->
+        <div class="preloder">
+            <div class="pre-loading"></div>
+        </div>
+        <!--== preloader area ends here ==-->
+
+
         <!-- start header -->
         <header>
             <!-- start navigation -->
             <nav class="navbar navbar-expand-lg top-space navbar-light bg-white-client header-light fixed-top navbar-boxed header-reverse-scroll">
                 <div class="container-fluid nav-header-container">
-                    <div class="col-5 col-sm-6 col-lg-2 me-auto ps-lg-0">
+                    <div class="col-5 col-xl-2 col-sm-4 col-lg-2 me-auto ps-lg-0">
                         <a class="navbar-brand" href="index.html">
                             <img src="../images/logo/logo_balche.png" data-at2x="../images/logo/logo_balche.png" alt="" class="default-logo">
-                            <img src="../images/logo/logo_balche.png" data-at2x="../images/logo/logo_balche.png" alt="" class="alt-logo">
-                            <img src="../images/logo/logo_balche.png" data-at2x="../images/logo/logo_balche.png" class="mobile-logo" alt="">
+                            <img src="../images/logo/logo_balche_white.png" data-at2x="../images/logo/logo_balche_white.png" alt="" class="alt-logo">
+                            <img src="../images/logo/logo_balche_white.png" data-at2x="../images/logo/logo_balche_white.png" class="mobile-logo" alt="">
                         </a>
                     </div>
-                    <div class="col-auto col-lg-8 menu-order px-lg-0">
+                    <div class="col-auto col-xl-8 col-lg-8 menu-order px-lg-0">
                         <button class="navbar-toggler float-end" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-label="Toggle navigation">
                             <span class="navbar-toggler-line"></span>
                             <span class="navbar-toggler-line"></span>
@@ -43,6 +50,11 @@
                             <span class="navbar-toggler-line"></span>
                         </button>
                         <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                            <ul class="alt-font list-translate xl-d-none">
+                                <li><a href="../about_us.html" title="English"><span class="icon-country"><img src="../images/country-flag-16X16/usa.png" alt=""></span> ENG</a></li>
+                               
+                                <li><a href="#" title="Spain">ESP<span class="icon-country"><img src="../images/country-flag-16X16/Mexico.png" alt=""></span></a></li>
+                            </ul>
                             <ul class="navbar-nav alt-font">
                                 <li class="nav-item dropdown megamenu">
                                     <a href="index.html" class="nav-link">Inicio</a>
@@ -50,7 +62,7 @@
                                    
                                 </li>
                                 <li class="nav-item dropdown simple-dropdown">
-                                    <a href="#" class="nav-link">Nosotros</a>
+                                    <a href="nosotros.html" class="nav-link">Nosotros</a>
                                   
                                 </li>
                                 <li class="nav-item dropdown simple-dropdown">
@@ -68,19 +80,21 @@
                                 </li>
                               
                             </ul>
+                            
                         </div>
                     </div>
-                    <div class="col-5 col-lg-2 text-end pe-0 ">
+                    <div class="col-5 col-xl-2 col-lg-3 text-end pe-0 sm-d-none lg-text-left ">
                             <ul class="alt-font list-translate">
-                                <li><a href="javascript:void(0);" title="English"><span class="icon-country"><img src="../images/country-flag-16X16/usa.png" alt=""></span> ENG</a></li>
+                                <li><a href="../about_us.html" title="English"><span class="icon-country"><img src="../images/country-flag-16X16/usa.png" alt=""></span> ENG</a></li>
                                
-                                <li><a href="javascript:void(0);" title="Spain">ESP<span class="icon-country"><img src="../images/country-flag-16X16/Mexico.png" alt=""></span></a></li>
+                                <li><a href="#" title="Spain">ESP<span class="icon-country"><img src="../images/country-flag-16X16/Mexico.png" alt=""></span></a></li>
                             </ul>
                     </div>
                 </div>
             </nav>
         </header>
         <!-- end header -->
+
         <!-- start section -->
         <section id="about" >
             <div class="container">
@@ -91,7 +105,7 @@
                 </div>
                 <div class="row">
                     <div class="col-12 col-lg-12 pe-lg-0 d-flex md-margin-30px-bottom ">
-                        <div class="w-100 md-h-700px sm-h-550px xs-h-450px d-flex justify-content-center">
+                        <div class="w-100 md-h-100px sm-h-550px xs-h-450px d-flex justify-content-center">
                             <ul class="list-about">
                                 <li><a href="index.html">Inicio</a></li>
                                 <li> <div class="point"></div></li>
@@ -101,40 +115,36 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-12 col-xl-12 col-lg-10 margin-five-top">
+                    <div class="col-12 col-xl-12 col-lg-12 margin-five-top">
                         <img loading="lazy" src="../images/about/about_us.jpeg" alt="Imagen About us">
                     </div>
                 </div>
                 <div class="row container-projects gap-2rem-responsive margin-five-top">
-                    <div class="col-12 col-xl-6 col-lg-5  col-md-6 ps-lg-0 text-center text-md-start wow animate__fadeIn" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeIn;">
+                    <div class="col-12 col-xl-6 col-lg-6  col-md-12 ps-lg-0 text-center text-md-start wow animate__fadeIn" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeIn;">
                         <span class="about-sub-title">Acerca de Nosotros</span>
                         <h5 class="about-title">Creadores apasionados dedicados a dar vida a narrativas cautivadoras.</h5>
-                        <p class="about-desc">Balché es una casa productora de cine, fundada por el cineasta mexicano Luis Quijano. Inspirado por la bebida maya y el árbol del que viene, Balché está enfocada en contar historias profundas e impactantes dentro del cine de género, principalmente terror y fantasía, que presenta la complejidad de la naturaleza humana.</p>
                         <p class="about-desc">
-                            Balché huye de lo blando y lo plástico, y en vez se enfoca en narrativas fuera de lo ordinario, abierto a explorar dimensiones no tradicionales, y a exponer lo bueno, lo malo, lo esperanzador y lo desesperanzador.
+                            Balché es una casa productora de cine, fundada por el cineasta mexicano Luis Quijano. Inspirado por la bebida maya y el árbol del que viene, Balché está enfocada en contar historias profundas e impactantes dentro del cine de género, principalmente terror y fantasía, que presenta la complejidad de la naturaleza humana.
                         </p>
+                        <p class="about-desc">Balché huye de lo blando y lo plástico, y en vez se enfoca en narrativas fuera de lo ordinario, abierto a explorar dimensiones no tradicionales, y a exponer lo bueno, lo malo, lo esperanzador y lo desesperanzador.</p>
                     </div>
-                    <div class="col-12 col-md-6 text-center sm-margin-30px-bottom wow animate__fadeIn p-0" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeIn;">
+                    <div class="col-12 col-xl-6 col-lg-6 col-md-12 text-center sm-margin-30px-bottom wow animate__fadeIn p-0" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeIn;">
                         <div class="container">
-                            <img loading="lazy" class="md-padding-30px-right " src="../images/about/Passionate_creators_about.png" alt="Background Client" data-no-retina="">
+                            <img loading="lazy" class="md-padding-0px-right " src="../images/about/Passionate_creators_about.png" alt="Background Client" data-no-retina="">
                         </div>
                     </div>
                 </div>
-                <div class="row container-projects gap-2rem-responsive margin-five-top">
-                    <div class="col-12 col-md-6 text-center sm-margin-30px-bottom wow animate__fadeIn p-0" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeIn;">
+                <div class="row container-projects gap-2rem-responsive margin-five-top flex-column-reverse-ipad">
+                    <div class="col-12 col-xl-6 col-lg-6 col-md-12 text-center sm-margin-30px-bottom wow animate__fadeIn p-0" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeIn;">
                         <div class="container p-lr-0">
-                            <img loading="lazy" class="md-padding-30px-right " src="../images/about/OUR_FOUNDER.png" alt="Background Client" data-no-retina="">
+                            <img loading="lazy" class="md-padding-0px-right " src="../images/about/OUR_FOUNDER.png" alt="Background Client" data-no-retina="">
                         </div>
                     </div>
-                    <div class="col-12 col-xl-6 col-lg-5  col-md-6 ps-lg-0 text-center text-md-start wow animate__fadeIn" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeIn;">
+                    <div class="col-12 col-xl-6 col-lg-6  col-md-12  text-center text-md-start wow animate__fadeIn" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeIn;">
                         
                         <h5 class="about-title">Nuestro Fundador</h5>
-                        <p class="about-desc">
-                            Luis Quijano es un cineasta mexicano nacido en Mérida, Yucatán, actualmente radicando en Los Angeles, CA. Desde 2015, Luis ha dirigido, producido y escrito cortometrajes narrativos, videos musicales y comerciales en México y en Estados Unidos. 
-                        </p>
-                        <p class="about-desc">
-                            Su trabajo directorial comúnmente explora temáticas de miedo, creencias y normas sociales en historias en el género de terror lideradas por personajes latines y, con Balché, Luis planea expandir el alcance de su cine y sus ideas.
-                        </p>
+                        <p class="about-desc">Luis Quijano es un cineasta mexicano nacido en Mérida, Yucatán, actualmente radicando en Los Angeles, CA. Desde 2015, Luis ha dirigido, producido y escrito cortometrajes narrativos, videos musicales y comerciales en México y en Estados Unidos.  </p>
+                        <p class="about-desc">Su trabajo directorial comúnmente explora temáticas de miedo, creencias y normas sociales en historias en el género de terror lideradas por personajes latines y, con Balché, Luis planea expandir el alcance de su cine y sus ideas.</p>
                         <p class="about-desc-content">
                             “Conocemos las emociones y alegrías que una película puede brindar a su audiencia y respetamos el tiempo, el dinero y el esfuerzo del espectador. Ya sea una película, un video musical o un comercial, ya sea de horror, drama o comedia, esperamos ofrecer a las audiencias de todo el mundo una experiencia inolvidable.”
 
@@ -143,7 +153,7 @@
                     
                 </div>
                 <div class="row container-projects gap-2rem-responsive margin-five-top">
-                    <div class="col-12 col-xl-6 col-lg-5  col-md-6 ps-lg-0 text-center text-md-start wow animate__fadeIn" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeIn;">
+                    <div class="col-12 col-xl-6 col-lg-6  col-md-12 ps-lg-0 text-center text-md-start wow animate__fadeIn" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeIn;">
                         
                         <h5 class="about-title">Conoce a Luis Quijano</h5>
                         <p class="about-desc">
@@ -153,9 +163,9 @@
                             Actualmente, Luis está en postproducción de su cortometraje “Avem” y en desarrollo de sus largometrajes “Los Bichos Dentro”, “Esto es lo que Somos” y “Caminante, Caminante”, basado en su cortometraje del mismo nombre.
                         </p>
                     </div>
-                    <div class="col-12 col-md-6 text-center sm-margin-30px-bottom wow animate__fadeIn p-0" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeIn;">
+                    <div class="col-12 col-xl-6 col-lg-6 col-md-12 text-center sm-margin-30px-bottom wow animate__fadeIn p-0" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeIn;">
                         <div class="container">
-                            <img loading="lazy" class="md-padding-30px-right " src="../images/about/GET_TO_KNOW_LUIS_QUIJANO.png" alt="Background Client" data-no-retina="">
+                            <img loading="lazy" class="md-padding-0px-right " src="../images/about/GET_TO_KNOW_LUIS_QUIJANO.png" alt="Background Client" data-no-retina="">
                         </div>
                     </div>
                 </div>
@@ -176,7 +186,7 @@
         <section class="bg-black-client overflow-process-item">
             <div class="container">
                 <div class="row container-projects margin-five-top">
-                    <div class="col-12 col-xl-6 col-lg-5  col-md-6 ps-lg-0 text-center text-md-start wow animate__fadeIn" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeIn;">
+                    <div class="col-12 col-xl-6 col-lg-5  col-md-12 ps-lg-0 text-center text-md-start wow animate__fadeIn sm-text-start" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeIn;">
                         <span class="process-item-sub-title text-gray-client">Our Workflow Process</span>
                         <h5 class="process-item-title text-white margin-25px-top">1. Desarrollo</h5>
                         <p class="process-item-desc">
@@ -184,7 +194,7 @@
                         </p>
                         
                     </div>
-                    <div class="col-12 col-md-6 text-center sm-margin-30px-bottom wow animate__fadeIn p-0" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeIn;">
+                    <div class="col-12 col-xl-6 col-lg-6 col-md-12 text-center sm-margin-30px-bottom wow animate__fadeIn p-0" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeIn;">
                         <div class="container">
                             <img loading="lazy" class="md-padding-30px-right " src="../images/about/DEVELOPMENT.png" alt="Development process" data-no-retina="">
                         </div>
@@ -195,13 +205,13 @@
         </section>
         <section class="bg-black-client overflow-process-item margin-five-top">
             <div class="container">
-                <div class="row container-projects margin-five-top">
-                    <div class="col-12 col-md-6 text-center sm-margin-30px-bottom wow animate__fadeIn p-0" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeIn;">
+                <div class="row container-projects margin-five-top flex-column-reverse-ipad">
+                    <div class="col-12 col-xl-6 col-lg-6 col-md-12 text-center sm-margin-30px-bottom wow animate__fadeIn p-0" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeIn;">
                         <div class="container">
                             <img loading="lazy" class="md-padding-30px-right " src="../images/about/Pre_Production.png" alt="Pre-Production process" data-no-retina="">
                         </div>
                     </div>
-                    <div class="col-12 col-xl-5 col-lg-5  col-md-6 ps-lg-0 text-center text-md-end wow animate__fadeIn " data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeIn;">
+                    <div class="col-12 col-xl-5 col-lg-6  col-md-12 ps-lg-0 text-center text-md-end wow animate__fadeIn " data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeIn;">
                         <span class="process-item-sub-title text-gray-client">Our Workflow Process</span>
                         <h5 class="process-item-title text-white margin-25px-top">2. Pre-Producción</h5>
                         <p class="process-item-desc">
@@ -217,7 +227,7 @@
         <section class="bg-black-client overflow-process-item margin-five-top">
             <div class="container">
                 <div class="row container-projects margin-five-top">
-                    <div class="col-12 col-xl-6 col-lg-5  col-md-6 ps-lg-0 text-center text-md-start wow animate__fadeIn" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeIn;">
+                    <div class="col-12 col-xl-6 col-lg-6  col-md-12 ps-lg-0 text-center text-md-start wow animate__fadeIn" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeIn;">
                         <span class="process-item-sub-title text-gray-client">Our Workflow Process</span>
                         <h5 class="process-item-title text-white margin-25px-top">3. Producción</h5>
                         <p class="process-item-desc">
@@ -225,7 +235,7 @@
                         </p>
                         
                     </div>
-                    <div class="col-12 col-md-6 text-center sm-margin-30px-bottom wow animate__fadeIn p-0" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeIn;">
+                    <div class="col-12 col-xl-6 col-lg-6 col-md-12 text-center sm-margin-30px-bottom wow animate__fadeIn p-0" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeIn;">
                         <div class="container">
                             <img loading="lazy" class="md-padding-30px-right " src="../images/about/Production.png" alt="Production process" data-no-retina="">
                         </div>
@@ -235,17 +245,18 @@
         </section>
         <section class="bg-black-client overflow-process-item margin-five-top">
             <div class="container">
-                <div class="row container-projects margin-five-top">
-                    <div class="col-12 col-md-6 text-center sm-margin-30px-bottom wow animate__fadeIn p-0" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeIn;">
+                <div class="row container-projects margin-five-top flex-column-reverse-ipad">
+                    <div class="col-12 col-xl-6 col-lg-6 col-md-12 text-center sm-margin-30px-bottom wow animate__fadeIn p-0" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeIn;">
                         <div class="container">
                             <img loading="lazy" class="md-padding-30px-right " src="../images/about/POST_PRODUCTION.png" alt="Pre-Production process" data-no-retina="">
                         </div>
                     </div>
-                    <div class="col-12 col-xl-6 col-lg-5  col-md-6 ps-lg-0 text-center text-md-end wow animate__fadeIn " data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeIn;">
+                    <div class="col-12 col-xl-6 col-lg-6  col-md-12 ps-lg-0 text-center text-md-end wow animate__fadeIn " data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeIn;">
                         <span class="process-item-sub-title text-gray-client">Our Workflow Process</span>
                         <h5 class="process-item-title text-white margin-25px-top">4. Post-Producción</h5>
                         <p class="process-item-desc">
                             La última etapa en la creación de la película. Donde la magia continúa. Una vez que se filma la película (o mientras se filma), las grabaciones se envían al editor de cine. En este proceso, se ensamblan las grabaciones para crear un corte final y completo de la película. Se edita el sonido de producción, se componen y graban la música y las canciones, así como los efectos de sonido, foley, efectos visuales, entre otros. Una vez que todo está editado y el director y los productores aprueban el montaje, la película queda bloqueada y lista para la fase de ventas, lanzamiento y distribución. Cada proyecto tiene un tiempo de postproducción único y sostenemos que esta etapa no puede apresurarse y es fundamental para que la película tenga una larga vida después de su lanzamiento.
+
                         </p>
                         
                     </div>
@@ -285,7 +296,7 @@
                                                 <div class="panel-title">
                                                     <i class="indicator fas text-white icon-extra-small fa-angle-right"></i>
                                                     <span class="item-question">
-                                                        Cómo podemos ponernos en contacto para colaboración o consultas de proyectos?
+                                                        ¿Cómo podemos ponernos en contacto para colaboración o consultas de proyectos?
                                                     </span>
                                                     
                                                 </div>
@@ -309,9 +320,7 @@
                                             </a>
                                         </div>
                                         <div id="accordion-style-03-02" class="panel-collapse collapse" data-bs-parent="#accordion3">
-                                            <div class="panel-body">
-                                                No, no leeremos ningún guión no solicitado pero estamos abiertos a juntarnos y platicar sobre futuras colaboraciones.
-                                            </div>
+                                            <div class="panel-body">No, no leeremos ningún guión no solicitado pero estamos abiertos a juntarnos y platicar sobre futuras colaboraciones.</div>
                                         </div>
                                     </div>
                                     <!-- end accordion item -->
@@ -326,7 +335,9 @@
                                             </a>
                                         </div>
                                         <div id="accordion-style-03-03" class="panel-collapse collapse" data-bs-parent="#accordion3">
-                                            <div class="panel-body">El enfoque de Balché Films es el cine de género pero estamos abiertos a producir todo tipo de películas siempre y cuando vaya hilado a sensibilidades e intereses narrativos poderosos.</div>
+                                            <div class="panel-body">
+                                                El enfoque de Balché Films es el cine de género pero estamos abiertos a producir todo tipo de películas siempre y cuando vaya hilado a sensibilidades e intereses narrativos poderosos.
+                                            </div>
                                         </div>
                                     </div>
                                     <!-- end accordion item -->
@@ -341,9 +352,7 @@
                                             </a>
                                         </div>
                                         <div id="accordion-style-03-04" class="panel-collapse collapse" data-bs-parent="#accordion4">
-                                            <div class="panel-body">
-                                                Sí. En Balché Films estamos orgullosos de decir que hemos financiado o co-producido más de una docena de proyectos. Nuestros socios The Yucatan Consulting Group y Humpback Whale Studios son dos empresas con las que hemos coproducido proyectos y con quienes hemos compartido gran éxito juntos.
-                                            </div>
+                                            <div class="panel-body">Sí. En Balché Films estamos orgullosos de decir que hemos financiado o co-producido más de una docena de proyectos. Nuestros socios The Yucatan Consulting Group y Humpback Whale Studios son dos empresas con las que hemos coproducido proyectos y con quienes hemos compartido gran éxito juntos.</div>
                                         </div>
                                     </div>
                                     <!-- end accordion item -->
@@ -358,9 +367,7 @@
                                             </a>
                                         </div>
                                         <div id="accordion-style-03-05" class="panel-collapse collapse" data-bs-parent="#accordion5">
-                                            <div class="panel-body">
-                                                La mayoría de las películas completas están disponibles en la página de “Nuestros Proyectos”. Algunos no están disponibles en el sitio web pero, si están interesados en ver uno que no está disponible, un link temporal privado puede enviarse para que se pueda ver.
-                                            </div>
+                                            <div class="panel-body">La mayoría de las películas completas están disponibles en la página de “Nuestros Proyectos”. Algunos no están disponibles en el sitio web pero, si están interesados en ver uno que no está disponible, un link temporal privado puede enviarse para que se pueda ver.</div>
                                         </div>
                                     </div>
                                     <!-- end accordion item -->
@@ -375,13 +382,12 @@
         <section id="contact" class="wow animate__fadeIn" style="visibility: visible; animation-name: fadeIn;">
             <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col-12 col-lg-12">
+                    <div class="col-12 col-lg-12 sm-padding-4-half-rem-top">
                         <div class="row justify-content-center container-form">
                             <div class="col-12 col-lg-4">
                                 <h3 class="contact-subtitle">Pongámonos en contacto</h3>
                                 <h2 class="contact-title">Hablemos de tu próximo proyecto!</h2>
-                                <span class="contact-des">Sed ut perspiciatis unde omnin natus totam 
-                                    rem aperiam eaque inventore veritatis</span>
+                                <span class="contact-des">¡Colaboremos!</span>
                             </div>
                             <div class="col-12 col-lg-8">
                                 <!-- start contact form -->
@@ -389,24 +395,28 @@
                                     <div class="row row-cols-1 row-cols-md-2">
                                         <div class="col-12 col-lg-6  margin-1-rem-bottom sm-margin-25px-bottom">
                                             <label class="label-contact" for="full_name">Nombre completo</label>
-                                            <input class="medium-input bg-white  required input-contact" type="text" name="full_name" placeholder="Escriba su nombre completo">
+                                            <input class="medium-input bg-white  required input-contact" type="text" name="full_name" placeholder="Nombre completo">
                                         </div>
                                         <div class="col-12 col-lg-6  margin-1-rem-bottom sm-margin-25px-bottom">
                                             <label class="label-contact" for="email">Email</label>
-                                            <input class="medium-input bg-white  required input-contact" type="email" name="email" placeholder="Escriba su email">
+                                            <input class="medium-input bg-white  required input-contact" type="email" name="email" placeholder="Email">
                                         </div>
                                         <div class="col-12 col-lg-6  margin-1-rem-bottom sm-margin-25px-bottom">
                                             <label class="label-contact" for="phone">Número de contacto</label>
-                                            <input class="medium-input bg-white  required input-contact" type="tel" name="phone" placeholder="Escriba su numero de telefono">
+                                            <input class="medium-input bg-white  required input-contact" type="tel" name="phone" placeholder="Número de contacto">
                                         </div>
                                         <div class="col-12 col-lg-6  margin-1-rem-bottom sm-margin-25px-bottom">
                                             <label class="label-contact" for="phone">Asunto</label>
-                                            <input class="medium-input bg-white  required input-contact" type="text" name="subject" placeholder="Escriba su asunto">
+                                            <input class="medium-input bg-white  required input-contact" type="text" name="subject" placeholder="Asunto">
                                         </div>
+                                    </div>
+                                    <div class="row">
                                         <div class="col-12 col-lg-12 margin-1-rem-bottom sm-margin-10px-bottom">
                                             <label class="label-contact" for="comment">Mensaje</label>
-                                            <textarea class="medium-textarea h-200px bg-white input-contact" name="comment" placeholder="Escriba su mensaje"></textarea>
+                                            <textarea class="medium-textarea h-200px bg-white input-contact" name="comment" placeholder="Mensaje"></textarea>
                                         </div>
+                                    </div>
+                                    <div class="row">
                                         <div class="col-12 col-lg-12 text-left text-md-start">
                                             <input type="hidden" name="redirect" value="">
                                             <button class="btn btn-large btn-dark-gray btn-rounded d-table d-lg-inline-block lg-margin-15px-bottom md-margin-auto-lr btn-contact mb-0 submit" type="submit">Enviar</button>
@@ -427,14 +437,13 @@
                 <div class="container">
                     <div class="row">
                         <!-- start footer column -->
-                        <div class="col-12 col-lg-3 col-md-5 col-sm-6 order-sm-1 order-lg-0 md-margin-50px-bottom xs-margin-25px-bottom">
+                        <div class="col-12 col-xl-3 col-lg-2 col-md-4 col-sm-6 order-sm-1 order-lg-0 sm-text-center md-margin-50px-bottom xs-margin-25px-bottom">
                             <a href="index.html" class="footer-logo margin-20px-bottom d-block"><img src="../images/logo/logo_balche_white.png" data-at2x="images/logo/logo_balche_white.png" alt=""></a>
-                            
                             
                         </div>
                         <!-- end footer column -->
                         <!-- start footer column -->
-                        <div class="col-12 col-lg-5 col-sm-4 order-sm-3 order-lg-0 xs-margin-25px-bottom footer-link-content">
+                        <div class="col-12 col-xl-5 col-lg-6 col-sm-3 order-sm-3 order-lg-0 xs-margin-25px-bottom footer-link-content">
                             <span class="footer-link-title">Links</span>
                             <ul class="link-footer" >
                                 <li><a href="#">Inicio</a></li>
@@ -445,8 +454,8 @@
                             </ul>                                   
                         </div>
                         <!-- end footer column -->
-                        <div class="col-12 col-lg-4 col-sm-4 order-sm-4 order-lg-0 xs-margin-25px-bottom ">
-                            <span class="footer-link-title">Información</span>
+                        <div class="col-12 col-xl-4 col-lg-4 col-sm-5 order-sm-4 order-lg-0 xs-margin-25px-bottom sm-d-none">
+                            <span class="footer-link-title">Direccion</span>
                             <div class="addres-item"><i class="fa fa-map-marker icon-very-small margin-10px-right text-white"></i><a href="#!">
                                 1200 W Riverside Drive, <br> Burbank, CA. 91506
                             </a></div>
@@ -457,11 +466,11 @@
                     </div>
                 </div>
             </div>
-            <div class="footer-bottom padding-35px-tb border-top border-color-white-transparent">
+            <div class="footer-bottom padding-35px-tb border-top border-color-white-transparent lg-h-200px">
                 <div class="container"> 
-                    <div class="row justify-content-center align-items-center">
+                    <div class="row justify-content-center align-items-center flex-column-reverse-ipad sm-gap-2rem md-gap-2rem">
 
-                        <div class="col-12 col-xl-4 col-md-6 sm-margin-10px-bottom xs-margin-15px-bottom p-0">
+                        <div class="col-12 col-xl-4 col-lg-5 col-md-5 sm-margin-10px-bottom xs-margin-15px-bottom p-0 sm-d-none md-d-none ">
                             <ul class="footer-horizontal-link d-flex flex-column flex-sm-row justify-content-sm-center justify-content-md-start inter fz-14px">
                                 <li><a href="#">Facebook</a></li>
                                 <li><a href="#">Twitter</a></li>
@@ -469,19 +478,22 @@
                                 <li><a href="#">LinkedIn</a></li>
                             </ul>                         
                         </div>
-                        <div class="col col-xl-1 col-container-footer p-0">
+                        <div class="col col-xl-2 col-lg-1 col-container-footer p-0">
                             <a href="javascript:void(0);" class="container-footer-icon wow animate__fadeIn " data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">
                                 <img src="../images/icons/vector_footer.png" alt="vector footer">
                             </a>
                         </div>
-                        <div class="col-12 col-xl-7 col-md-6 text-start text-sm-center text-md-end last-paragraph-no-margin p-0">
-                            <p class="text-white inter fz-14px">Copyright 2023, <strong>Balché Films</strong> Todos los derechos reservados - Desarrollado por <a href="https://www.themezaa.com/" target="_blank" class="text-decoration-line-bottom text-white">Búho Solutions</a>.</p>
+                        <div class="col-8 col-xl-6 col-lg-6 col-md-6 text-start text-sm-center md-text-center text-md-end last-paragraph-no-margin p-0">
+                            <p class="text-white inter fz-14px sm-fz-19px sm-text-center">Copyright @2023, <strong>Balché Films</strong>  Todos los derechos reservados - Desarrollado por <a href="https://www.themezaa.com/" target="_blank" class="text-decoration-line-bottom text-white">Búho Solutions</a>.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </footer>
-        
+        <!-- start scroll to top -->
+        <!-- <a class="scroll-top-arrow" href="javascript:void(0);"><i class="feather icon-feather-arrow-up"></i></a> -->
+        <!-- end scroll to top -->
+        <!-- javascript -->
         <script type="text/javascript" src="../js/jquery.min.js"></script>
         <script type="text/javascript" src="../js/theme-vendors.min.js"></script>
         <script type="text/javascript" src="../js/main.js"></script>
@@ -490,5 +502,17 @@
         <script type="text/javascript" src="../revolution/js/jquery.themepunch.tools.min.js"></script>
         <script type="text/javascript" src="../revolution/js/jquery.themepunch.revolution.min.js"></script>
 
+        <!-- slider revolution 5.0 extensions (load extensions only on local file systems ! the following part can be removed on server for on demand loading) --> 
+        <!-- <script type="text/javascript" src="revolution/js/extensions/revolution.extension.actions.min.js"></script>
+        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.migration.min.js"></script>
+        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.video.min.js"></script> -->
+
+       
     </body>
 </html>
