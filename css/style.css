@@ -43,6 +43,7 @@ Table of contents
 ====================================== */
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200;9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800;9..40,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
 /* ===================================
     02. Reset
 ====================================== */
@@ -116,8 +117,8 @@ header [class^="container-"] [class^="col-"], header [class^="container-"] [clas
 ====================================== */
 
 /* font family */
-.alt-font { font-family: 'DM Sans', sans-serif; }
-.main-font { font-family: 'Roboto', sans-serif !important; }
+.alt-font { font-family: 'PT Mono', monospace; }
+.main-font { font-family: 'PT Mono', monospace !important; }
 
 /* heading size */
 h1, h2, h3, h4, h5, h6 { margin:0 0 25px 0; padding:0; letter-spacing: -0.5px; font-weight: inherit; }
@@ -563,8 +564,8 @@ section.half-section { padding:80px 0; }
 blockquote { border-left: 2px solid; color: #232323; font-size: 18px; line-height: 30px; font-weight: 500; padding: 2px 100px; margin-top: 50px; margin-bottom: 50px; }
 blockquote p { margin-bottom: 17px !important; 
     color: #fff;
-    font-family: 'DM Sans';
-    font-size: 27px;
+    font-family: 'PT Mono', monospace;
+    font-size: 25px;
     font-style: normal;
     font-weight: 500;
     line-height: 150%; /* 40.5px */
@@ -572,7 +573,7 @@ blockquote p { margin-bottom: 17px !important;
 }
 blockquote footer { 
     color: rgba(255, 255, 255, 0.35);
-    font-family: 'DM Sans';
+    font-family: 'PT Mono', monospace;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -2695,7 +2696,7 @@ button.mfp-close,.mfp-image-holder button.mfp-close, .mfp-iframe-holder button.m
 
 .navbar { padding: 0; }
 .navbar.navbar-boxed { padding-left: 35px; padding-right: 35px; }
-.navbar-brand { margin-right: 0; font-size: 0; display: inline-block; }
+.navbar-brand { margin-right: 0; font-size: 0; display: inline-block; width: 100%; }
 .dropdown.open>.dropdown-menu { display: block; }
 .header-social-icon a > i { padding: 0px 10px; font-size: 14px; vertical-align: middle; }
 .header-cart-icon a > i, .header-cart-icon a > i, .header-language a > i, .header-search-icon a > i, .header-push-button a > i { padding: 30px 0; display: inline-block; }
@@ -2907,7 +2908,7 @@ header.sticky .navbar.header-dark .navbar-toggler-line { background: #fff; }
     color: #fff !important;
 }
 /* header logo */
-header .navbar .navbar-brand img, header.side-menu .logo img, header .sidebar-nav-menu .navbar-brand img { max-height: 36px; }
+header .navbar .navbar-brand img, header.side-menu .logo img, header .sidebar-nav-menu .navbar-brand img { max-height: 36px;  }
 header .navbar .navbar-brand .default-logo, header.sticky .navbar-brand .alt-logo, header .sidebar-nav-menu .navbar-brand .default-logo { visibility: visible; opacity: 1; width: auto; transition-duration:0.5s; -webkit-transition-duration: 0.5s; -moz-transition-duration: 0.5s; -ms-transition-duration: 0.5s; -o-transition-duration: 0.5s; }
 header.sticky .navbar .navbar-brand .default-logo, header .navbar-brand .alt-logo, header .navbar .navbar-brand .mobile-logo, header .sidebar-nav-menu .navbar-brand .mobile-logo  { visibility: hidden; opacity: 0; width: 0; transition-duration:0.5s; -webkit-transition-duration: 0.5s; -moz-transition-duration: 0.5s; -ms-transition-duration: 0.5s; -o-transition-duration: 0.5s; }
 
@@ -3461,7 +3462,7 @@ header .header-cart-icon .cart-count { position: absolute; top: -6px; right: -10
 
 .film-category {
     color: #070707;
-    font-family: 'Inter';
+    font-family: 'PT Mono', monospace;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -3470,8 +3471,8 @@ header .header-cart-icon .cart-count { position: absolute; top: -6px; right: -10
 
 .film-title {
     color: #070707;
-    font-family: 'DM Sans';
-    font-size: 25px;
+    font-family: 'PT Mono', monospace;
+    font-size: 20px;
     font-style: normal;
     font-weight: 500;
     line-height: 57.6px; /* 192% */
@@ -4155,7 +4156,7 @@ a img.aligncenter { display: block; margin-left: auto; margin-right: auto; }
 .list-style-07 li { position: relative; display: inline-block; width: 100%; margin-bottom: 15px; line-height: 18px; }
 .list-style-07 li:last-child { margin-bottom: 0; }
 .list-style-07 li a { display: inline-block; text-align: left; 
-    font-family: 'DM Sans';
+    font-family: 'PT Mono', monospace;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -4192,8 +4193,8 @@ a img.aligncenter { display: block; margin-left: auto; margin-right: auto; }
 .accordion-style-03 .panel .panel-heading i { position: absolute; top: 50%; left: 0; transform: translateY(-50%); -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -ms-transform: translateY(-50%); }
 .accordion-style-03 .panel .panel-body { padding: 0 20px 30px 0;
     color: rgba(255, 255, 255, 0.65);
-    font-family: 'Inter';
-    font-size: 14px;
+    font-family: 'PT Mono', monospace;
+    font-size: 13px;
     font-style: normal;
     font-weight: 400;
     line-height: 30px; /* 187.5% */
@@ -4201,8 +4202,8 @@ a img.aligncenter { display: block; margin-left: auto; margin-right: auto; }
 
 .item-question {
     color: #FFF;
-    font-family: 'DM Sans';
-    font-size: 15px;
+    font-family: 'PT Mono', monospace;
+    font-size: 11px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -4671,7 +4672,7 @@ aside .instafeed-grid.gutter-double-extra-large { margin-left: -20px; margin-rig
     26. Footer
 ====================================== */
 
-footer .footer-logo img { max-height: 36px; }
+footer .footer-logo img { max-height: 46px; }
 footer ul {padding-left: 0; list-style: none;}
 footer ul li { margin-bottom: 7px; }
 footer ul li:last-child { margin-bottom: 0; }
@@ -5077,8 +5078,8 @@ input[type="checkbox"].error { box-shadow: 0px 0px 0px 1px rgb(255 0 0), 1px 1px
 }
 span.marking {
     color: #1F1F1F;
-    font-family: 'DM Sans';
-    font-size: 65px;
+    font-family: 'PT Mono', monospace;
+    font-size: 50px;
     font-style: normal;
     font-weight: 700;
     line-height: 75px;
@@ -5096,22 +5097,22 @@ span.marking {
     background: var(--blackH1);
     position: relative;
     overflow: hidden;
-    padding: 50px 0px;
+    padding: 110px 0px;
     z-index: 0;
 }
 /* content  */
 .hero_container .hero_header {
     color: #1F1F1F;
-    font-family: 'DM Sans';
-    font-size: 45px;
+    font-family: 'PT Mono', monospace;
+    font-size: 40px;
     font-style: normal;
     font-weight: 400;
-    line-height: 75px; /* 166.667% */
+    line-height: 60px; /* 166.667% */
     letter-spacing: -1.35px;
 }
 .hero_container .hero_des {
     color: #1F1F1F;
-font-family: 'Inter';
+font-family: 'PT Mono', monospace;
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
@@ -5149,7 +5150,7 @@ line-height: 30px; /* 187.5% */
     right: 0;
     top: 50%;
     transform: translateY(-50%);
-    max-width: 58%;
+    max-width: 54%;
 }
 /* vector image  */
 
@@ -5161,8 +5162,8 @@ line-height: 30px; /* 187.5% */
 
 .btn-contact{
     color: #FFF;
-    font-family: 'Inter';
-    font-size: 16px;
+    font-family: 'PT Mono', monospace;
+    font-size: 15px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -5178,7 +5179,7 @@ line-height: 30px; /* 187.5% */
 
 .sub-title-about{
     color: rgba(255, 255, 255, 0.35);
-    font-family: 'Inter';
+    font-family: 'PT Mono', monospace;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -5188,18 +5189,24 @@ line-height: 30px; /* 187.5% */
 
 .title-about{
     color: #FFF;
-    font-family: 'DM Sans';
-    font-size: 42px;
+    font-family: 'PT Mono', monospace;
+    font-size: 34px;
     font-style: normal;
     font-weight: 500;
     line-height: 54px; /* 120% */
     letter-spacing: -1.35px;
 }
 
+
+.title-underline {
+    text-decoration: underline;
+    color: #D3CCB8;
+}
+
 .about-des {
     color: rgba(255, 255, 255, 0.65);
-    font-family: 'Inter';
-    font-size: 16px;
+    font-family: 'PT Mono', monospace;
+    font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 30px; /* 187.5% */
@@ -5219,8 +5226,8 @@ line-height: 30px; /* 187.5% */
 
 .title-item{
     color: #FFF;
-    font-family: 'Inter';
-    font-size: 18px;
+    font-family: 'PT Mono', monospace;
+    font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -5230,7 +5237,7 @@ line-height: 30px; /* 187.5% */
 
 .email_title{
     color: rgba(255, 255, 255, 0.45);
-    font-family: 'Inter';
+    font-family: 'PT Mono', monospace;
     font-size: 14px;
     font-style: normal;
     font-weight: 600;
@@ -5246,14 +5253,18 @@ line-height: 30px; /* 187.5% */
 
 .email_one {
     color: #FFF;
-    font-family: 'DM Sans';
-    font-size: 18px;
+    font-family: 'PT Mono', monospace;
+    font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
     letter-spacing: -0.36px;
     margin: 0;
     
+}
+
+.border-image {
+    border: 2px solid #D3CCB8;
 }
 
 .d-flex-email {
@@ -5274,7 +5285,7 @@ line-height: 30px; /* 187.5% */
 .title-video{
     color: #1F1F1F;
     text-align: center;
-    font-family: 'DM Sans';
+    font-family: 'PT Mono', monospace;
     font-size: 45px;
     font-style: normal;
     font-weight: 500;
@@ -5285,7 +5296,7 @@ line-height: 30px; /* 187.5% */
 .narrative_title{
     color: #1F1F1F;
     text-align: center;
-    font-family: 'DM Sans';
+    font-family: 'PT Mono', monospace;
     font-size: 45px;
     font-style: normal;
     font-weight: 500;
@@ -5295,7 +5306,7 @@ line-height: 30px; /* 187.5% */
 
     .narrative-item {
         color: #FFF;
-        font-family: 'DM Sans';
+        font-family: 'PT Mono', monospace;
         font-size: 24px;
         font-style: normal;
         font-weight: 400;
@@ -5304,8 +5315,8 @@ line-height: 30px; /* 187.5% */
 
     .narrative-item-title{
         color: #FFF;
-        font-family: 'DM Sans';
-        font-size: 24px;
+        font-family: 'PT Mono', monospace;
+        font-size: 22px;
         font-style: normal;
         font-weight: 500;
         line-height: 54px; /* 225% */
@@ -5314,8 +5325,8 @@ line-height: 30px; /* 187.5% */
 
     .narrative-item-des {
         color: rgba(255, 255, 255, 0.65);
-        font-family: 'Inter';
-        font-size: 15px;
+        font-family: 'PT Mono', monospace;
+        font-size: 11px;
         font-style: normal;
         font-weight: 400;
         line-height: 30px; /* 200% */
@@ -5324,7 +5335,7 @@ line-height: 30px; /* 187.5% */
     .client_title{
         color: #1F1F1F;
         text-align: center;
-        font-family: 'DM Sans';
+        font-family: 'PT Mono', monospace;
         font-size: 18px;
         font-style: normal;
         font-weight: 500;
@@ -5338,7 +5349,7 @@ line-height: 30px; /* 187.5% */
 
 .project-sub-title {
     color: #070707;
-    font-family: 'Inter';
+    font-family: 'PT Mono', monospace;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -5347,8 +5358,8 @@ line-height: 30px; /* 187.5% */
 
 .project-title {
     color: #070707;
-    font-family: 'DM Sans';
-    font-size: 42px;
+    font-family: 'PT Mono', monospace;
+    font-size: 32px;
     font-style: normal;
     font-weight: 500;
     line-height: 57.6px; /* 120% */
@@ -5357,8 +5368,8 @@ line-height: 30px; /* 187.5% */
 
 .project-des {
     color: #070707;
-    font-family: 'Inter';
-    font-size: 16px;
+    font-family: 'PT Mono', monospace;
+    font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 30px; /* 187.5% */
@@ -5376,7 +5387,7 @@ line-height: 30px; /* 187.5% */
 
 .btn-client-black {
     color: #F5F5F5;
-    font-family: 'Inter';
+    font-family: 'PT Mono', monospace;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -5401,8 +5412,8 @@ line-height: 30px; /* 187.5% */
     /* text */
     color: rgba(255, 255, 255, 0.65);
     text-align: center;
-    font-family: 'DM Sans';
-    font-size: 16px;
+    font-family: 'PT Mono', monospace;
+    font-size: 14px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -5410,8 +5421,8 @@ line-height: 30px; /* 187.5% */
 
 .lattes_des {
     color: #FFF;
-    font-family: 'DM Sans';
-    font-size: 22px;
+    font-family: 'PT Mono', monospace;
+    font-size: 18px;
     font-style: normal;
     font-weight: 700;
     line-height: 35px; /* 159.091% */
@@ -5439,8 +5450,8 @@ line-height: 30px; /* 187.5% */
 
 .date_esp {
     color: rgba(255, 255, 255, 0.65);
-    font-family: 'Inter';
-    font-size: 14px;
+    font-family: 'PT Mono', monospace;
+    font-size: 13px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -5448,8 +5459,8 @@ line-height: 30px; /* 187.5% */
 
 .contact-subtitle{
     color: #1F1F1F;
-    font-family: 'Inter';
-    font-size: 16px;
+    font-family: 'PT Mono', monospace;
+    font-size: 14px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -5457,8 +5468,8 @@ line-height: 30px; /* 187.5% */
 
 .contact-title {
     color: #1F1F1F;
-    font-family: 'DM Sans';
-    font-size: 45px;
+    font-family: 'PT Mono', monospace;
+    font-size: 33px;
     font-style: normal;
     font-weight: 500;
     line-height: 54px; /* 120% */
@@ -5467,7 +5478,7 @@ line-height: 30px; /* 187.5% */
 
 .contact-des {
     color: #070707;
-    font-family: 'Inter';
+    font-family: 'PT Mono', monospace;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -5476,7 +5487,7 @@ line-height: 30px; /* 187.5% */
 
 .label-contact{
     color: #070707;
-    font-family: 'DM Sans';
+    font-family: 'PT Mono', monospace;
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
@@ -5501,8 +5512,8 @@ line-height: 30px; /* 187.5% */
 
 .footer-link-title{
     color: #FFF;
-    font-family: 'DM Sans';
-    font-size: 18px;
+    font-family: 'PT Mono', monospace;
+    font-size: 16px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -5511,8 +5522,8 @@ line-height: 30px; /* 187.5% */
 
 .link-footer a {
     color: rgba(255, 255, 255, 0.65);
-    font-family: 'DM Sans';
-    font-size: 16px;
+    font-family: 'PT Mono', monospace;
+    font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -5525,14 +5536,14 @@ line-height: 30px; /* 187.5% */
 }
 
 .inter {
-    font-family: 'Inter';
+    font-family: 'PT Mono', monospace;
 }
 
 .fz-12px {
     font-size: 12px;
 }
 .fz-14px {
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .container-footer-icon {
@@ -5540,7 +5551,7 @@ line-height: 30px; /* 187.5% */
     height: 60px;
     flex-shrink: 0;
     border-radius: 14px;
-    background: #FFF;
+    background: #D3CCB8;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -5557,7 +5568,7 @@ line-height: 30px; /* 187.5% */
     background: white;
     border-radius: 100%;
     position: absolute;
-    top: 20px;
+    top: 50px;
     right: 40px;
     display: flex;
     justify-content: center;
@@ -5574,8 +5585,8 @@ line-height: 30px; /* 187.5% */
 
 .list-translate li a {
     color: #1F1F1F;
-    font-family: 'DM Sans';
-    font-size: 16px;
+    font-family: 'PT Mono', monospace;
+    font-size: 14px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -5583,7 +5594,7 @@ line-height: 30px; /* 187.5% */
 
 header.sticky .list-translate li a {
     color: #fff;
-    font-family: 'DM Sans';
+    font-family: 'PT Mono', monospace;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -5601,7 +5612,7 @@ header.sticky .list-translate li a {
 .list-about li a {
     color: #1F1F1F;
     text-align: center;
-    font-family: 'Inter';
+    font-family: 'PT Mono', monospace;
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
@@ -5610,12 +5621,13 @@ header.sticky .list-translate li a {
 
 .list-about li {
     color: #1F1F1F;
-    font-family: 'Inter';
+    font-family: 'PT Mono', monospace;
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    
+    width: 88px;
+    text-align: -webkit-right;
 }
 
 .point {
@@ -5627,7 +5639,7 @@ header.sticky .list-translate li a {
 
 .about-sub-title {
     color: #1F1F1F;
-    font-family: 'Inter';
+    font-family: 'PT Mono', monospace;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -5636,21 +5648,21 @@ header.sticky .list-translate li a {
 
 .about-title{
     color: #1F1F1F;
-    font-family: 'DM Sans';
-    font-size: 45px;
+    font-family: 'PT Mono', monospace;
+    font-size: 34px;
     font-style: normal;
     font-weight: 500;
-    line-height: 54px; /* 120% */
+    line-height: 40px; /* 120% */
     letter-spacing: -1.35px;
 }
 
 .about-desc {
     color: #1F1F1F;
-    font-family: 'Inter';
+    font-family: 'PT Mono', monospace;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 187.5% */
+    line-height: 25px; /* 187.5% */
 }
 
 .p-lr-0{
@@ -5661,10 +5673,10 @@ header.sticky .list-translate li a {
 .about-desc-content {
     color: #1F1F1F;
     text-align: center;
-    font-family: 'DM Sans';
-    font-size: 16.5px;
+    font-family: 'PT Mono', monospace;
+    font-size: 12.5px;
     font-style: italic;
-    font-weight: 500;
+    font-weight: 800;
     line-height: 33px; /* 194.118% */
     letter-spacing: -0.51px;
 }
@@ -5676,7 +5688,7 @@ header.sticky .list-translate li a {
 .process-title {
     color: #1F1F1F;
     text-align: center;
-    font-family: 'DM Sans';
+    font-family: 'PT Mono', monospace;
     font-size: 45px;
     font-style: normal;
     font-weight: 500;
@@ -5686,7 +5698,7 @@ header.sticky .list-translate li a {
 
 .process-item-sub-title {
     color: rgba(255, 255, 255, 0.65);
-    font-family: 'Inter';
+    font-family: 'PT Mono', monospace;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -5695,7 +5707,7 @@ header.sticky .list-translate li a {
 
 .process-item-title{
     color: #FFF;
-    font-family: 'DM Sans';
+    font-family: 'PT Mono', monospace;
     font-size: 45px;
     font-style: normal;
     font-weight: 500;
@@ -5705,8 +5717,8 @@ header.sticky .list-translate li a {
 
 .process-item-desc {
     color: rgba(255, 255, 255, 0.65);
-    font-family: 'Inter';
-    font-size: 14px;
+    font-family: 'PT Mono', monospace;
+    font-size: 12px;
     font-style: normal;
     font-weight: 400;
     line-height: 30px; /* 187.5% */
@@ -5726,7 +5738,7 @@ header.sticky .list-translate li a {
 
 .question_title {
     color: #070707;
-    font-family: 'DM Sans';
+    font-family: 'PT Mono', monospace;
     font-size: 45px;
     font-style: normal;
     font-weight: 500;
@@ -5741,8 +5753,8 @@ header.sticky .list-translate li a {
 
 .addres-item a {
     color: #FFF;
-    font-family: 'DM Sans';
-    font-size: 16px;
+    font-family: 'PT Mono', monospace;
+    font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 30px; /* 166.667% */
@@ -5751,8 +5763,8 @@ header.sticky .list-translate li a {
 .filter-list {
     color: #070707;
     text-align: center;
-    font-family: 'Inter';
-    font-size: 18px;
+    font-family: 'PT Mono', monospace;
+    font-size: 17px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -5761,8 +5773,8 @@ header.sticky .list-translate li a {
 .about-title-home {
     color: #070707;
     text-align: center;
-    font-family: 'DM Sans';
-    font-size: 75px;
+    font-family: 'PT Mono', monospace;
+    font-size: 65px;
     font-style: normal;
     font-weight: 500;
     line-height: 75px; /* 100% */
@@ -5771,7 +5783,7 @@ header.sticky .list-translate li a {
 .press-title-home {
     color: #070707;
     text-align: center;
-    font-family: 'DM Sans';
+    font-family: 'PT Mono', monospace;
     font-size: 55px;
     font-style: normal;
     font-weight: 500;
@@ -5781,8 +5793,8 @@ header.sticky .list-translate li a {
 
 .single-sub-title {
     color: #000;
-    font-family: 'DM Sans';
-    font-size: 30px;
+    font-family: 'PT Mono', monospace;
+    font-size: 28px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -5791,8 +5803,8 @@ header.sticky .list-translate li a {
 
 .single-des {
     color: #000;
-    font-family: 'Inter';
-    font-size: 16px;
+    font-family: 'PT Mono', monospace;
+    font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 30px; /* 187.5% */
@@ -5800,7 +5812,7 @@ header.sticky .list-translate li a {
 
 .single-category{
     color: #FFF;
-    font-family: 'DM Sans';
+    font-family: 'PT Mono', monospace;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -5809,8 +5821,8 @@ header.sticky .list-translate li a {
 
 .single-title-category {
     color: #FFF;
-    font-family: 'Inter';
-    font-size: 22px;
+    font-family: 'PT Mono', monospace;
+    font-size: 18px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -5825,7 +5837,7 @@ header.sticky .list-translate li a {
 .other_project-title {
     color: #070707;
     text-align: center;
-    font-family: 'DM Sans';
+    font-family: 'PT Mono', monospace;
     font-size: 45px;
     font-style: normal;
     font-weight: 500;
@@ -5844,7 +5856,7 @@ header.sticky .list-translate li a {
 
 .botton-contact-aside {
     color: #000;
-    font-family: 'Inter';
+    font-family: 'PT Mono', monospace;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -5863,7 +5875,7 @@ header.sticky .list-translate li a {
 
 .title-aside {
     color: #FFF;
-    font-family: 'DM Sans';
+    font-family: 'PT Mono', monospace;
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
@@ -5872,7 +5884,7 @@ header.sticky .list-translate li a {
 
 .sub-title-press {
     color: rgba(255, 255, 255, 0.65);
-    font-family: 'DM Sans';
+    font-family: 'PT Mono', monospace;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -5881,7 +5893,7 @@ header.sticky .list-translate li a {
 
 .publisher-date-press {
     color: #FFF;
-    font-family: 'Inter';
+    font-family: 'PT Mono', monospace;
     font-size: 22px;
     font-style: normal;
     font-weight: 500;
@@ -5901,7 +5913,7 @@ header.sticky .list-translate li a {
     /* text */
     color: rgba(255, 255, 255, 0.65);
     text-align: center;
-    font-family: 'DM Sans';
+    font-family: 'PT Mono', monospace;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -5925,7 +5937,7 @@ header.sticky .list-translate li a {
 
 .press-desc {
     color: #FFF;
-    font-family: 'Inter';
+    font-family: 'PT Mono', monospace;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -5936,7 +5948,7 @@ header.sticky .list-translate li a {
 
 .review-title {
     color: #FFF;
-    font-family: 'DM Sans';
+    font-family: 'PT Mono', monospace;
     font-size: 27px;
     font-style: normal;
     font-weight: 700;
@@ -5947,8 +5959,8 @@ header.sticky .list-translate li a {
 
 .review-desc {
     color: #FFF;
-    font-family: 'Inter';
-    font-size: 16px;
+    font-family: 'PT Mono', monospace;
+    font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 30px; /* 187.5% */
@@ -5976,7 +5988,7 @@ header.sticky .list-translate li a {
 
 .contact-title-form {
     color: #070707;
-    font-family: 'DM Sans';
+    font-family: 'PT Mono', monospace;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;

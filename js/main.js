@@ -936,15 +936,46 @@
         }
     });
 
+
+    function extendMagnificIframe(){
+    
+        var $start = 0;
+        var $iframe = {
+            markup: '<div class="mfp-iframe-scaler">' +
+                    '<div id="iframeId" class="mfp-close"></div>' +
+                    '<iframe class="mfp-iframe" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>' +
+                    '</div>' +
+                    '<div class="mfp-bottom-bar">' +
+                    '<div class="mfp-title"></div>' +
+                    '</div>',
+            patterns: {
+                vimeo: {
+                    index: 'vimeo.com/', 
+                    id: function(url) {        
+                        var m = url.match(/(https?:\/\/)?(www.)?(player.)?vimeo.com\/([a-z]*\/)*([0-9]{6,11})[?]?.*/);
+                        if ( !m || !m[5] ) return null;
+                        return m[5];
+                    },
+                    src: 'https://player.vimeo.com/video/%id%?autoplay=1'
+                }
+            }
+        };
+    
+        return $iframe;     
+    
+    }
+
     /****** Video magnific popup ******/
     $( '.popup-youtube, .popup-vimeo' ).magnificPopup({
         disableOn: 767,
         type: 'iframe',
+        iframe:extendMagnificIframe(),
         mainClass: 'mfp-fade',
         removalDelay: 160,
         preloader: false,
         fixedContentPos: true,
         closeBtnInside: false
+       
     });
 
     /****** Google map magnific popup ******/
@@ -1271,6 +1302,7 @@
                     flag = false;
                 }, 500 );
                 $( 'body' ).addClass( 'show-menu' );
+                $('.section-logo').addClass('text-center');
             } else {
                 if ( ! $( '.navbar-collapse' ).has( e.target ).is( '.navbar-collapse' ) && $( '.navbar-collapse ul' ).hasClass( 'show' ) ) {
                     $( '.navbar-collapse' ).find( 'a.dropdown-toggle' ).addClass( 'collapsed' );
@@ -2071,4 +2103,17 @@
             $(this).remove();
         });
     });
+
+
+    const toglee = document.querySelector('.menu-order');
+    
+
+
+
+    toglee.addEventListener('click', function() {
+        document.getElementById('section-logo').classList.toggle('text-center'); 
+    })
+
+
+
 })( jQuery );

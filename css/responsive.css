@@ -2805,6 +2805,7 @@
     
     /* magnific popup */
     button.mfp-close, .mfp-image-holder button.mfp-close, .mfp-iframe-holder button.mfp-close, .mfp-close:active { top: 20px; right: 20px; }
+
 }
 
 @media (max-width: 1024px) {
@@ -2876,6 +2877,10 @@
         width: 35px;
         height: 35px;
         line-height: 35px;
+    }
+
+    .project-title {
+        font-size: 25px;
     }
 
 }
@@ -4761,7 +4766,8 @@
     }
 
     .project-title {
-        font-size: 32px;
+        font-size: 22px;
+        line-height: 35px;
     }
 
     .project-des{
@@ -4784,6 +4790,11 @@
     }
 
     .flex-column-reverse-ipad {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .md-flex-column-reverse-ipad {
         flex-direction: column-reverse;
         align-items: center;
     }
@@ -4834,6 +4845,10 @@
 
     .md-text-center {
         text-align: center;
+    }
+
+    .film-title {
+        font-size: 16px;
     }
 }
 
@@ -5059,6 +5074,7 @@
     .sm-margin-eighteen-top { margin-top:18%; }
     .sm-margin-nineteen-top { margin-top:19%; }
     .sm-margin-twenty-top { margin-top:20%; }
+    .sm-margin-0px-top { margin-top:0px; }
     .sm-margin-5px-top { margin-top:5px; }
     .sm-margin-10px-top { margin-top:10px; }
     .sm-margin-15px-top { margin-top:15px; }
@@ -5121,6 +5137,7 @@
     .sm-margin-eighteen-bottom { margin-bottom:18%; }
     .sm-margin-nineteen-bottom { margin-bottom:19%; }
     .sm-margin-twenty-bottom { margin-bottom:20%; }
+    .sm-margin-0px-bottom { margin-bottom:0px; }
     .sm-margin-5px-bottom { margin-bottom:5px; }
     .sm-margin-10px-bottom { margin-bottom:10px; }
     .sm-margin-15px-bottom { margin-bottom:15px; }
@@ -5141,6 +5158,7 @@
     .sm-margin-90px-bottom { margin-bottom:90px; }
     .sm-margin-95px-bottom { margin-bottom:95px; }
     .sm-margin-100px-bottom { margin-bottom:100px; }
+    .sm-margin-0-rem-bottom { margin-bottom: 0rem; }
     .sm-margin-1-rem-bottom { margin-bottom: 1rem; }
     .sm-margin-1-half-rem-bottom { margin-bottom: 1.5rem; }
     .sm-margin-2-rem-bottom { margin-bottom: 2rem; }
@@ -6239,7 +6257,7 @@
     /* gutter type */
     .grid.gutter-small { margin: 0 -7px; }
     .grid.gutter-small li { padding:7px 7px; }
-    .grid.gutter-extra-large li { padding:15px; }
+    .grid.gutter-extra-large li { padding:40px; }
     .grid.gutter-extra-large { margin:0 -15px; }
     .grid.gutter-double-extra-large li { padding: 15px; }
     .grid.gutter-medium { margin: 0 -7px; }
@@ -6533,6 +6551,7 @@
 
     header .navbar .navbar-brand .mobile-logo, header .sidebar-nav-menu .navbar-brand .mobile-logo{
         margin-left: 0px;
+        
     }
 }
 
@@ -8156,7 +8175,7 @@
     }
 
     .title-about {
-        font-size: 32px;
+        font-size: 24px;
         line-height: 44px;
     }
 
@@ -8173,8 +8192,21 @@
         height: auto;
         gap: 3rem;
         margin-top: 1rem;
-        padding: 1rem 0;
-        justify-content: space-evenly;
+        padding: 1rem;
+        justify-content: left;
+    }
+
+    .sm-text-left {
+        text-align: left !important;
+    }   
+
+    .button-client-dark{
+        display: none;
+    }
+
+    .flex-column-reverse-ipad{
+        flex-direction: column-reverse;
+        align-items: center;
     }
 
     .d-flex-email {
@@ -8186,13 +8218,13 @@
     }
 
     .title-video, .narrative_title {
-        font-size: 36px;
+        font-size: 34px;
     }
 
     
 
     .client_title{
-        font-size: 25px;
+        font-size: 22px;
     }
 
     .container-projects {
@@ -8204,7 +8236,7 @@
     }
 
     .project-title {
-        font-size: 36px;
+        font-size: 24px;
     }
 
     .project-title, .project-des{
@@ -8265,12 +8297,12 @@
     }
 
     .xs-h-450px {
-        height: 100px !important;
+        height: 50px !important;
     }
 
     .about-title, .process-title {
-        font-size: 32px;
-        line-height: 44px;
+        font-size: 25px;
+        line-height: 40px;
     }
 
     .sm-text-start {
@@ -8299,8 +8331,9 @@
     }
 
     .about-title-home{
-        font-size: 32px;
+        font-size: 35px;
         margin-bottom: 0px;
+        line-height: 40px;
     }
 
     .question_title {
@@ -8311,7 +8344,11 @@
 
     .list-about li a {
         display: block;
-        width: 100px;
+        width: 45px;
+    }
+
+    .list-about li {
+        text-align: -webkit-center;
     }
 
     .xs-no-padding-lr{
@@ -8346,7 +8383,7 @@
     }
 
     section.big-section{
-        padding: 80px 0;
+        padding: 50px 0;
     }
 
     .slider-navigation-style-07.swiper-button-prev.light {
@@ -8381,7 +8418,8 @@
     }
 
     .press-title-home {
-        font-size: 32px;
+        font-size: 25px;
+        line-height: 40px;
     }
 
     .span-lenguage {
@@ -8405,7 +8443,7 @@
     }
 
     .btn.btn-large {
-        font-size: 22px;
+        font-size: 18px;
     }
 
     .sm-d-none {
@@ -8416,6 +8454,12 @@
         text-align: center;
     }
 
+    .hero_wrapper{
+        padding: 80px 0;
+    }
+    .sm-fz-17px {
+        font-size: 17px;
+    }
     .sm-fz-19px {
         font-size: 19px;
     }
@@ -8433,7 +8477,23 @@
     }
 
     .nav-item.dropdown.megamenu, .nav-item.dropdown.simple-dropdown {
-        margin-bottom: 5rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .item-question{
+        font-size: 13px;
+    }
+
+    .overflow-process {
+        padding-bottom: 20px;
+    }
+
+    .film-category {
+        font-size: 12px;
+    }
+
+    .film-title {
+        font-size: 14px;
     }
 }
 
