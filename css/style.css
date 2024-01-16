@@ -524,7 +524,7 @@ h6 { font-size:1.80rem; line-height:2.5rem; }
 ====================================== */
 
 section { padding: 130px 0; overflow: hidden; }
-section.big-section { padding:90px 0; }
+section.big-section { padding:70px 0; }
 section.extra-big-section { padding:200px 0; }
 section.half-section { padding:80px 0; }
 .cursor-none { cursor: none; }
@@ -1807,6 +1807,7 @@ input.btn:focus { border-width: 2px; }
 .padding-eighteen-left { padding-left:18%; }
 .padding-nineteen-left { padding-left:19%; }
 .padding-twenty-left { padding-left:20%; }
+.padding-0px-right { padding-right:0px; }
 .padding-5px-left { padding-left:5px; }
 .padding-10px-left { padding-left:10px; }
 .padding-15px-left { padding-left:15px; }
@@ -2334,6 +2335,7 @@ input.btn:focus { border-width: 2px; }
 .h-820px { height: 820px; }
 .h-830px { height: 830px; }
 .h-850px { height: 850px; }
+.h-1050px { height: 1200px; }
 .h-1200px { height: 1200px; }
 
 .h-50 { height: 50%; }
@@ -2358,8 +2360,12 @@ input.btn:focus { border-width: 2px; }
 .small-screen { height:400px; }
 .one-half-screen { height:600px; }
 .one-third-screen { height:700px; }
-.one-fourth-screen { height:800px; }
+.one-fourth-screen { height:100vh; }
 .one-fifth-screen { height:900px; }
+
+#shadow-host-content {
+padding: 0;
+}
 
 /* content box image */
 .content-box-image { width: 100%; height: -webkit-calc(100% / 3); height: -moz-calc(100% / 3); height: calc(100% / 3); }
@@ -2412,7 +2418,7 @@ input.btn:focus { border-width: 2px; }
 .icon-small { font-size:28px; }
 .icon-extra-small { font-size:18px; }
 .icon-very-small { font-size:13px; }
-.icon-country { width: 16px; height: 16px; display: inline-block; margin:0 10px 0 5px; }
+.icon-country { width: 16px; height: 16px; display: inline-block; margin:0 0px 0 5px; }
 
 /* social media icon */
 .extra-small-icon, .small-icon, .medium-icon, .large-icon, .extra-large-icon { list-style: none; padding: 0; }
@@ -3425,7 +3431,7 @@ header .header-cart-icon .cart-count { position: absolute; top: -6px; right: -10
 .grid.gutter-small li { padding:5px 5px; }
 .grid.gutter-medium li { padding:7px 7px; }
 .grid.gutter-large li { padding:10px 10px; }
-.grid.gutter-extra-large li { padding:15px; }
+.grid.gutter-extra-large li { padding: 0px 15px 0px 0px; }
 .grid.gutter-double-extra-large li { padding:20px; }
 .grid.gutter-triple-extra-large li { padding:30px; }
 
@@ -4203,11 +4209,15 @@ a img.aligncenter { display: block; margin-left: auto; margin-right: auto; }
 .item-question {
     color: #FFF;
     font-family: 'PT Mono', monospace;
-    font-size: 11px;
+    font-size: 13px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
     letter-spacing: -0.6px;
+}
+
+#contact {
+    padding: 60px 0;
 }
 
 /* accordion style 04 */
@@ -5626,9 +5636,18 @@ header.sticky .list-translate li a {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    width: 88px;
+    width: auto;
+    
+}
+
+.text-webkit-left {
+    text-align: -webkit-left;
+}
+
+.text-webkit-right {
     text-align: -webkit-right;
 }
+
 
 .point {
     width: 5px;
@@ -6015,7 +6034,7 @@ header.sticky .list-translate li a {
 	width: 100%;
 	height: 100vh;
 	position: fixed;
-	background: #F1F1F1;
+	background: #fff;
 	top: 0;
 	left: 0;
 	z-index: 1000000;
@@ -6028,10 +6047,10 @@ header.sticky .list-translate li a {
 }
 .pre-loading {
 	position: relative;
-	width: 70px;
-	height: 70px;
+	width: 200px;
+	height: 100px;
 	background: transparent;
-	border: 10px solid black;
+	border: 10px solid #fff;
 	border-top: transparent;
 	border-bottom: transparent;
 	border-radius: 50%;
@@ -6049,4 +6068,29 @@ header.sticky .list-translate li a {
 
 .xl-d-none {
     display: none;
+}
+
+
+.html-video { 
+    background-color: #000; 
+    left: 50%;
+    width: auto; 
+    height:auto; 
+    min-height: 100%; 
+    min-width: 100%; 
+    position: absolute; 
+    top: -225px; 
+    -ms-transform: translate(-50%, 0); 
+    -webkit-transform: translate(-50%, 0); 
+    transform: translate(-50%, 0); 
+    -moz-transform: translate(-50%, 0); 
+    -o-transform: translate(-50%, 0); 
+    z-index: -3; 
+}
+
+video {
+    background-size: cover;
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
 }
